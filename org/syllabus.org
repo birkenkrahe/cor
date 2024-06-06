@@ -91,23 +91,86 @@ Humanities, Arts, and Science (H.A.T.S.) symposium at Lyon College.
 |------+-------------------------------------|
 |    1 | Plato & Programming                 |
 |    2 | Plato's Meno & Game Programming     |
-|    3 | Overview: Python programming        |
-|    4 | Getting to know =turtle=              |
-|    5 | Getting started with =turtle=         |
-|    6 | Programming with =turtle= I           |
-|    7 | Programming with =turtle II=          |
-|    8 | Using Loops: =for= loops              |
-|    9 | Using Loops: =while= loops            |
-|   10 | Using conditional statements        |
-|   11 | Using conditional statements        |
-|   12 | Final project: setting up           |
-|   13 | Final project: creating the die     |
-|   14 | Final project: game development     |
+|    3 | Introduction and Setup              |
+|    4 | Basic Turtle Movements                |
+|    5 | Darawing Simple Shapes                |
+|    6 | Pen Control and Colors                |
+|    7 | Advanced Shape Drawing                |
+|    8 | Turtle Graphics and Designs           |
+|    9 | Introduction to Turtle Animation      |
+|   10 | Creating Scenes and Backgrounds     |
+|   11 | Interactive Turtle Programs         |
+|   12 | Building a Simple Game              |
+|   13 | Debugging and Enhancing Programs    |
+|   14 | Final Project and Presentation      |
 |   15 | Preparing the H.A.T.S. presentation |
 |   16 | H.A.T.S. presentation               |
 
 - NO CLASSES: Aug 21, Oct 10 (Fall break), Oct 19 (Service day), Nov
   23 (Thanksgiving). See [[https://catalog.lyon.edu/202324-academic-calendar][2023-2024 academic calendar]].
+
+** Session plan
+
+*** **Session 1: Introduction and Setup**
+- **Objective**: Introduction to the `turtle` library and Python environment setup.
+- **Activities**: Install Python and `turtle`, open the turtle screen, create a turtle object.
+- **Materials**: Computers with Python installed, tutorial handouts.
+
+*** **Session 2: Basic Turtle Movements**
+- **Objective**: Learn basic `turtle` movement commands.
+- **Activities**: Practice `forward`, `backward`, `left`, `right`, and move the turtle to specific coordinates.
+- **Materials**: Sample scripts for turtle movement.
+
+*** **Session 3: Drawing Simple Shapes**
+- **Objective**: Draw basic shapes with the `turtle`.
+- **Activities**: Draw squares, rectangles, and circles using turtle commands.
+- **Materials**: Scripts for drawing different shapes.
+
+*** **Session 4: Pen Control and Colors**
+- **Objective**: Customize the turtle’s pen and colors.
+- **Activities**: Change pen size, color, and fill shapes with different colors.
+- **Materials**: Example scripts demonstrating pen and color changes.
+
+*** **Session 5: Advanced Shape Drawing**
+- **Objective**: Draw complex shapes and patterns.
+- **Activities**: Use loops to draw polygons and more complex shapes.
+- **Materials**: Scripts with loops for drawing patterns.
+
+*** **Session 6: Turtle Graphics and Designs**
+- **Objective**: Create advanced designs with the turtle.
+- **Activities**: Draw intricate designs using nested loops and shape combinations.
+- **Materials**: Design templates and sample scripts.
+
+*** **Session 7: Introduction to Turtle Animation**
+- **Objective**: Learn the basics of animation with the `turtle`.
+- **Activities**: Adjust turtle speed and create simple animations using loops.
+- **Materials**: Animation scripts for practice.
+
+*** **Session 8: Creating Scenes and Backgrounds**
+- **Objective**: Draw backgrounds and static scenes.
+- **Activities**: Use the turtle to create a background scene, like a landscape or a simple room.
+- **Materials**: Background scene templates and scripts.
+
+*** **Session 9: Interactive Turtle Programs**
+- **Objective**: Create interactive programs with user input.
+- **Activities**: Write scripts that respond to user inputs to control the turtle.
+- **Materials**: Interactive program examples.
+
+*** **Session 10: Building a Simple Game**
+- **Objective**: Use the turtle to create a basic game.
+- **Activities**: Write a script for a simple turtle-based game, such as catching objects.
+- **Materials**: Game scripts and design guides.
+
+*** **Session 11: Debugging and Enhancing Programs**
+- **Objective**: Learn debugging techniques and improve turtle programs.
+- **Activities**: Debug and enhance existing turtle programs with new features.
+- **Materials**: Sample buggy scripts for debugging practice.
+
+*** **Session 12: Final Project and Presentation**
+- **Objective**: Complete and present a comprehensive turtle graphics project.
+- **Activities**: Work on a final project that incorporates all learned elements and present it to the class.
+- **Materials**: Project guidelines and presentation tips.
+
 
 * Learning management system
 
