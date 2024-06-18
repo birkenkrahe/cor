@@ -3,7 +3,7 @@
 #+subtitle: COR 100.09 Y1 Program Fall 2024
 #+startup: overview hideblocks indent inlineimages
 #+attr_html: :width 400px:
-[[../img/cor100_python.png]]
+[[../img/poster.png]]
 
 * General Course Information
 
@@ -22,15 +22,15 @@ computer games. Students will learn how to use Python, a powerful and
 versatile programming language, to bring their game concepts to life,
 focusing on game logic, graphics rendering, and user interaction. The
 curriculum covers key programming concepts, game design principles,
-and the integration of libraries such as Pygame, providing a hands-on
-approach through project-based learning. By the end of the course,
-participants will have developed several games from scratch,
+and the integration of libraries such as Turtle or Pygame, providing a
+hands-on approach through project-based learning. By the end of the
+course, participants will have developed several games from scratch,
 demonstrating their understanding of the game development process and
 their ability to apply programming skills in a creative
 context. Acquiring programming skills in Python will not only help you
 understand how computers can be used to create interactive experiences
-but also enhance your critical thinking abilities. We will meet daily
-for 90 minutes of practical problem solving and interactive
+but also enhance your critical thinking abilities. We will meet weekly
+for 50 minutes of lectures, practical problem solving and interactive
 exercises. Between classes, students will work on small assignments,
 leading to the opportunity to present their work and (optionally)
 publish their finished projects for the whole world to see at the
@@ -62,11 +62,14 @@ Humanities, Arts, and Science (H.A.T.S.) symposium at Lyon College.
 * Sources
 
 - Invent your own games with Python by Al Sweigart (4e), NoStarch
-  2016, URL: [[https://inventwithpython.com/invent4thed/][inventwithpython.com/invent4thed]]
+  2016, URL: [[https://inventwithpython.com/invent4thed/][inventwithpython.com/invent4thed]].
 
 - The Beginner's Guide to Python Turtle by Nikita Silaparasetty, Feb
-  26, 2020, URL: [[https://realpython.com/beginners-guide-python-turtle][realpython.com/beginners-guide-python-turtle]]
+  26, 2020, URL: [[https://realpython.com/beginners-guide-python-turtle][realpython.com/beginners-guide-python-turtle]].
 
+- PyGame: A Primer on Game Programming in Python by Jon Fincher, Sep
+  16, 2019, URL: [[https://realpython.com/pygame-a-primer/][realpython.com/pygame-a-primer/]].
+  
 * Grading
 
 | DESCRIPTION             | IMPACT |
