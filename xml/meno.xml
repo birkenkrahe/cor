@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop>
+  <assessment title="Quiz on Plato's Meno Video Reading">
+    <section ident="root_section">
+      <!-- Question 1 -->
+      <item title="Question 1" ident="Q1">
+        <presentation>
+          <material>
+            <mattext texttype="text/html">What is the main question that Socrates and Meno discuss in the dialogue?</mattext>
+          </material>
+          <response_lid ident="response1">
+            <render_choice>
+              <response_label ident="A">
+                <material>
+                  <mattext texttype="text/html">Can virtue be taught?</mattext>
+                </material>
+              </response_label>
+              <response_label ident="B">
+                <material>
+                  <mattext texttype="text/html">What is the nature of justice?</mattext>
+                </material>
+              </response_label>
+              <response_label ident="C">
+                <material>
+                  <mattext texttype="text/html">How can one achieve happiness?</mattext>
+                </material>
+              </response_label>
+              <response_label ident="D">
+                <material>
+                  <mattext texttype="text/html">What is the definition of piety?</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">A</varequal>
+            </conditionvar>
+            <setvar action="Set">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <!-- Question 2 -->
+      <item title="Question 2" ident="Q2">
+        <presentation>
+          <material>
+            <mattext texttype="text/html">How does Meno initially define virtue in the dialogue?</mattext>
+          </material>
+          <response_lid ident="response2">
+            <render_choice>
+              <response_label ident="A">
+                <material>
+                  <mattext texttype="text/html">As the ability to rule over people</mattext>
+                </material>
+              </response_label>
+              <response_label ident="B">
+                <material>
+                  <mattext texttype="text/html">As knowledge of the good</mattext>
+                </material>
+              </response_label>
+              <response_label ident="C">
+                <material>
+                  <mattext texttype="text/html">As doing what is just</mattext>
+                </material>
+              </response_label>
+              <response_label ident="D">
+                <material>
+                  <mattext texttype="text/html">As acting in accordance with the gods' will</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response2">A</varequal>
+            </conditionvar>
+            <setvar action="Set">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <!-- Question 3 -->
+      <item title="Question 3" ident="Q3">
+        <presentation>
+          <material>
+            <mattext texttype="text/html">What analogy does Socrates use to explain why he is unable to define virtue?</mattext>
+          </material>
+          <response_lid ident="response3">
+            <render_choice>
+              <response_label ident="A">
+                <material>
+                  <mattext texttype="text/html">A swarm of bees</mattext>
+                </material>
+              </response_label>
+              <response_label ident="B">
+                <material>
+                  <mattext texttype="text/html">A flock of birds</mattext>
+                </material>
+              </response_label>
+              <response_label ident="C">
+                <material>
+                  <mattext texttype="text/html">A flowing river</mattext>
+                </material>
+              </response_label>
+              <response_label ident="D">
+                <material>
+                  <mattext texttype="text/html">A growing tree</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response3">A</varequal>
+            </conditionvar>
+            <setvar action="Set">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <!-- Question 4 -->
+      <item title="Question 4" ident="Q4">
+        <presentation>
+          <material>
+            <mattext texttype="text/html">How does Socrates challenge Meno's definition of virtue?</mattext>
+          </material>
+          <response_lid ident="response4">
+            <render_choice>
+              <response_label ident="A">
+                <material>
+                  <mattext texttype="text/html">By asking whether all forms of virtue share a common essence</mattext>
+                </material>
+              </response_label>
+              <response_label ident="B">
+                <material>
+                  <mattext texttype="text/html">By pointing out the contradictions in Meno's arguments</mattext>
+                </material>
+              </response_label>
+              <response_label ident="C">
+                <material>
+                  <mattext texttype="text/html">By appealing to the authority of the gods</mattext>
+                </material>
+              </response_label>
+              <response_label ident="D">
+                <material>
+                  <mattext texttype="text/html">By demonstrating that virtue cannot be defined at all</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response4">A</varequal>
+            </conditionvar>
+            <setvar action="Set">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <!-- Question 5 -->
+      <item title="Question 5" ident="Q5">
+        <presentation>
+          <material>
+            <mattext texttype="text/html">What concept does Socrates introduce to explain how people can come to know things they have never learned?</mattext>
+          </material>
+          <response_lid ident="response5">
+            <render_choice>
+              <response_label ident="A">
+                <material>
+                  <mattext texttype="text/html">The theory of recollection</mattext>
+                </material>
+              </response_label>
+              <response_label ident="B">
+                <material>
+                  <mattext texttype="text/html">The idea of innate ideas</mattext>
+                </material>
+              </response_label>
+              <response_label ident="C">
+                <material>
+                  <mattext texttype="text/html">The principle of divine inspiration</mattext>
+                </material>
+              </response_label>
+              <response_label ident="D">
+                <material>
+                  <mattext texttype="text/html">The notion of empirical observation</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response5">A</varequal>
+            </conditionvar>
+            <setvar action="Set">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <!-- Question 6 -->
+      <item title="Question 6" ident="Q6">
+        <presentation>
+          <material>
+            <mattext texttype="text/html">How does Socrates demonstrate the theory of recollection to Meno?</mattext>
+          </material>
+          <response_lid ident="response6">
+            <render_choice>
+              <response_label ident="A">
+                <material>
+                  <mattext texttype="text/html">By leading a slave boy to solve a geometric problem through questioning</mattext>
+                </material>
+              </response_label>
+              <response_label ident="B">
+                <material>
+                  <mattext texttype="text/html">By recounting a story about his own childhood learning experiences</mattext>
+                </material>
+              </response_label>
+              <response_label ident="C">
+                <material>
+                  <mattext texttype="text/html">By referring to the teachings of ancient poets</mattext>
+                </material>
+              </response_label>
+              <response_label ident="D">
+                <material>
+                  <mattext texttype="text/html">By performing a ritual of purification</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response6">A</varequal>
+            </conditionvar>
+            <setvar action="Set">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <!-- Question 7 -->
+      <item title="Question 7" ident="Q7">
+        <presentation>
+          <material>
+            <mattext texttype="text/html">According to the theory of recollection, where does true knowledge come from?</mattext>
+          </material>
+          <response_lid ident="response7">
+            <render_choice>
+              <response_label ident="A">
+                <material>
+                  <mattext texttype="text/html">The soul's memories of the Forms</mattext>
+                </material>
+              </response_label>
+              <response_label ident="B">
+                <material>
+                  <mattext texttype="text/html">The gods' revelations</mattext>
+                </material>
+              </response_label>
+              <response_label ident="C">
+                <material>
+                  <mattext texttype="text/html">The experiences of the senses</mattext>
+                </material>
+              </response_label>
+              <response_label ident="D">
+                <material>
+                  <mattext texttype="text/html">The teachings of wise men</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response7">A</varequal>
+            </conditionvar>
+            <setvar action="Set">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <!-- Question 8 -->
+      <item title="Question 8" ident="Q8">
+        <presentation>
+          <material>
+            <mattext texttype="text/html">By the end of the dialogue, what conclusion do Socrates and Meno reach about virtue?</mattext>
+          </material>
+          <response_lid ident="response8">
+            <render_choice>
+              <response_label ident="A">
+                <material>
+                  <mattext texttype="text/html">Virtue may not be teachable, but it could be a gift from the gods</mattext>
+                </material>
+              </response_label>
+              <response_label ident="B">
+                <material>
+                  <mattext texttype="text/html">Virtue is clearly a form of knowledge and can be taught</mattext>
+                </material>
+              </response_label>
+              <response_label ident="C">
+                <material>
+                  <mattext texttype="text/html">Virtue is entirely dependent on one's upbringing</mattext>
+                </material>
+              </response_label>
+              <response_label ident="D">
+                <material>
+                  <mattext texttype="text/html">Virtue is an innate quality that cannot be changed</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response8">A</varequal>
+            </conditionvar>
+            <setvar action="Set">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <!-- Question 9 -->
+      <item title="Question 9" ident="Q9">
+        <presentation>
+          <material>
+            <mattext texttype="text/html">What does Anytus warn Socrates about towards the end of the dialogue?</mattext>
+          </material>
+          <response_lid ident="response9">
+            <render_choice>
+              <response_label ident="A">
+                <material>
+                  <mattext texttype="text/html">The danger of criticizing the prominent citizens of Athens</mattext>
+                </material>
+              </response_label>
+              <response_label ident="B">
+                <material>
+                  <mattext texttype="text/html">The futility of philosophical discussions</mattext>
+                </material>
+              </response_label>
+              <response_label ident="C">
+                <material>
+                  <mattext texttype="text/html">The necessity of adhering to traditional values</mattext>
+                </material>
+              </response_label>
+              <response_label ident="D">
+                <material>
+                  <mattext texttype="text/html">The importance of following the laws of the city</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response9">A</varequal>
+            </conditionvar>
+            <setvar action="Set">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+
+      <!-- Question 10 -->
+      <item title="Question 10" ident="Q10">
+        <presentation>
+          <material>
+            <mattext texttype="text/html">What role does Socrates suggest that opinion (doxa) plays in the pursuit of virtue?</mattext>
+          </material>
+          <response_lid ident="response10">
+            <render_choice>
+              <response_label ident="A">
+                <material>
+                  <mattext texttype="text/html">Correct opinion can guide action, but it is less stable than knowledge</mattext>
+                </material>
+              </response_label>
+              <response_label ident="B">
+                <material>
+                  <mattext texttype="text/html">Opinion is completely unreliable and should be dismissed</mattext>
+                </material>
+              </response_label>
+              <response_label ident="C">
+                <material>
+                  <mattext texttype="text/html">Opinion is the same as knowledge when it leads to the right actions</mattext>
+                </material>
+              </response_label>
+              <response_label ident="D">
+                <material>
+                  <mattext texttype="text/html">Opinion and knowledge are equally valid ways of understanding virtue</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response10">A</varequal>
+            </conditionvar>
+            <setvar action="Set">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>
