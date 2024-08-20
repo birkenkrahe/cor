@@ -8,16 +8,7 @@
 #+REVEAL_THEME: dracula
 :END:
 #+STARTUP:overview hideblocks indent
-#+OPTIONS: toc:1 num:nil ^:nil
-* Today
-#+attr_html: :width 600px:
-[[../img/poster.png]]
-
-- Syllabus & Socrates
-- Game Programming in Python & Values
-- Coding in Google Colaboratory
-- Assignment for next week
-
+#+OPTIONS: toc:nil num:nil ^:nil
 * Syllabus
 
 - You find the complete Syllabus in Canvas
@@ -28,42 +19,171 @@
   | H.A.T.S. presentation   | 25% |
   | Participation           | 25% |
 
+* Today
+#+attr_html: :width 600px:
+[[../img/poster.png]]
+
+- Syllabus & Socrates
+- Python & Philosophy
+- Coding & Colaboratory
+- Assignment for next week
+
+#+begin_notes
+Welcome to the class! Finally! You've already more than completed one
+of the assignments, namely winning the Scot's Race. Now you get a
+paddle with your name on it, which will join the 'pantheon' (Πάνθειον)
+in Ed's Commons, and I get to have a second paddle with my name on it!
+
+This course was weird to begin with: "Game Programming in Python" in
+15 weeks with 50 minutes per week? How is that ever going to work?
+Well, it does and it doesn't. It gives you an opportunity to see how
+computer and data science, the two things that I know something about,
+is taught and run at Lyon - since we're a small department, you're
+going to run into me about 1/2 of the time (or more, if you choose to
+major in data science): so if you can't stand me, don't do it, but if
+you don't mind me, do it because working with computers and data is
+one of the most lucrative and most fun things that I can think about.
+
+This term the course has become even weirder because Lyon received a
+research grant to spruce up its freshman induction program (COR) with
+some philosophy. Now, there is some philosophy in programming and
+software engineering but it's hidden, and techies often have
+difficulty talking about it. Why do you think that is?
+#+end_notes
+
+* $\TeX$ ies
+#+attr_html: :width 600px:
+[[../img/knuth.png]]
+
+Why don't techies like to talk about philosophy? 
+
+#+begin_notes
+The two people in the photo are Donald Knuth, perhaps the world's
+foremost living computer scientist and author of the multi-volume "The
+Art of Programming", and Hermann Zapf, a German typeface designer and
+calligrapher, collaborating on the development of the $\TeX$
+typesetting system.
+
+Despite of this fact, you're caught in the spider net of philosophy
+this term: together with all the other freshmen you'll have to read a
+book by Plato, the "Meno" dialog (more about that later). Fortunately,
+it is a very small book, but it packs a punch, as we will see.
+
+In the first two weeks, besides some general instruction and a little
+interactive computing with Python, we'll focus mostly on
+philosophy. In fact, when I started my education, in Germany, I spent
+a lot of time doing philosophy and "reading the Greeks" - in Greek.
+#+end_notes
+
 * My School
 
 #+attr_html: :width 600px: 
 [[../img/johanneum.jpg]]
 
-The Johanneum in Hamburg (since 1529)
+My high school: The Johanneum in Hamburg (since 1529)
 
 * Socrates
 
-#+attr_html: :width 600px: 
-[[../img/socrates.jpg]]
+#+attr_html: :width 600px:
+[[../img/death_socrates.jpg]]
+#+begin_notes
+The central person in the dialog you'll be reading is Socrates. He
+never published anything as far as he know, but his friend and pupil
+Plato put him in his works, and a few Greek playwrights used him, too.
 
-** Socrates' Tools
+Who was he?
+- A gadfly (μύωψ): Impiety and corruption of the youth of Athens.
+- Famous quotes: "I know that I know nothing," and "The unexamined
+  life is not worth living." - Is either of these things really true?
+
+Apart from that he is perhaps known to you for being in Assassin's
+Creed, and for a method of inquiry, a way of exploring a topic that is
+now called "the Socratic method". Do you already know what that is?
+#+end_notes
+
+* Socrates
+#+attr_html: :width 600px:
+[[../img/Socrates_assassins-creed-odyssey.jpg]]
+#+begin_notes
+I found him annoying because he slows the game and the story down
+without adding much to the plot or to the action.
+#+end_notes
+
+* Socrates' Tools
 
 - *Elenchus* (ἔλεγχος) = refutation
 - *Aporia* (ἀπορία) = riddles
 - *Anamnesis* (ἀνάμνησις) = remembrance
 
-** Is programming fun?
+#+begin_notes
+The Socratic method is based on dialog - humans talking. Here are
+three of its characteristics /in abstracto/, without examples or
+details. You will find those in the text, and your first mission,
+should you choose to accept it, is to read the text and identify
+examples.
+#+end_notes
+
+* What questions are worth asking?
+#+attr_html: :width 600px:
+[[../img/socrates.jpg]]
+
+#+begin_notes
+The method is about asking questions, asking the right questions, and
+trying to get somewhere purely by way of logic. What is logic? It's a
+set of methods used to test for truth or untruth - it is the basis of
+mathematical proofs and all computing. So it's not only philosophical!
+
+Questions that Socrates and Meno wrestle with in the book include:
+- What is virtue?
+- Can virtue be taught?
+- What is knowledge?
+- What is the difference between knowing and believing?
+- Is learning possible or is it just remembering?
+- What is the role of inquiry?
+#+end_notes
+
+* Is programming fun?
 #+attr_html: :width 600px: 
 [[../img/bruegel_hunters_in_the_snow.jpg]]
 
 Pieter Bruegel, Hunters in the Snow (1565)
 
-** Reflect
+#+begin_notes
+Is this the kind of question that Socrates would have tackled with his
+method? Answer: No, it is not! Though programming can be defined,
+"fun" is inherently subjective and personal though shared across
+people.
+#+end_notes
 
-- Can game programming be taught?
+* Can game programming be taught?
+#+attr_html: :width 600px:
+[[../img/game_developer.jpg]]
+
+#+begin_notes
 - Why do you think yes/no?
-- Form groups of 3-4 people.
+- Form groups of 4-5 people.
+- Identify a reporter and a group leader.
 - Write down your arguments.
 - Write down how you did it.
+- Each group briefly presents its results.
+#+end_notes
 
-* Coding in Google Colab
+* Coding & Colaboratory
+#+attr_html: :width 700px:
+[[../img/litprog1.png]]
+#+begin_notes
+Let's go! Open colab.research.google.com
+#+end_notes
 
 * Assignment
+#+attr_html: :width 400px: 
+[[../img/knuthmad.png]]
 
+#+begin_notes
+- Read Plato's "Meno" (handout).
+- Be prepared to discuss it.
+- More details via Canvas.
+#+end_notes
 
 
 
