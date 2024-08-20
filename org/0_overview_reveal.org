@@ -1,0 +1,70 @@
+#+TITLE: Overview
+#+AUTHOR: Marcus Birkenkrahe
+#+SUBTITLE: COR 100 - Game Programming with Python
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_INIT_OPTIONS: transition: 'cube'
+#+REVEAL_THEME: dracula
+:END:
+#+STARTUP:overview hideblocks indent
+#+OPTIONS: toc:1 num:nil ^:nil
+* Today
+#+attr_html: :width 600px:
+[[../img/poster.png]]
+
+- Syllabus & Socrates
+- Game Programming in Python & Values
+- Coding in Google Colaboratory
+- Assignment for next week
+
+* Syllabus
+
+- You find the complete Syllabus in Canvas
+- Source: [[https://inventwithpython.com/invent4thed][inventwithpython.com/invent4thed]]
+- Grading:
+  | Programming assignments | 25% |
+  | Tests                   | 25% |
+  | H.A.T.S. presentation   | 25% |
+  | Participation           | 25% |
+
+* My School
+
+#+attr_html: :width 600px: 
+[[../img/johanneum.jpg]]
+
+The Johanneum in Hamburg (since 1529)
+
+* Socrates
+
+#+attr_html: :width 600px: 
+[[../img/socrates.jpg]]
+
+** Socrates' Tools
+
+- *Elenchus* (ἔλεγχος) = refutation
+- *Aporia* (ἀπορία) = riddles
+- *Anamnesis* (ἀνάμνησις) = remembrance
+
+** Is programming fun?
+#+attr_html: :width 600px: 
+[[../img/bruegel_hunters_in_the_snow.jpg]]
+
+Pieter Bruegel, Hunters in the Snow (1565)
+
+** Reflect
+
+- Can game programming be taught?
+- Why do you think yes/no?
+- Form groups of 3-4 people.
+- Write down your arguments.
+- Write down how you did it.
+
+* Coding in Google Colab
+
+* Assignment
+
+
+
+
+
