@@ -172,7 +172,8 @@ people.
 #+attr_html: :width 700px:
 [[../img/litprog1.png]]
 #+begin_notes
-Let's go! Open colab.research.google.com
+- Let's go! Open [[https://colab.research.google.com][colab.research.google.com]]
+- My  sample file: [[https://colab.research.google.com/drive/1pQscH6sIWFpt2-MfqsRc3y5wjqWwGJpM?usp=sharing][FirstProgram.ipynb]]
 #+end_notes
 
 * Assignment

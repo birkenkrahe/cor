@@ -1,0 +1,7 @@
+#+title: Notes - Game Programming with Python
+#+author: Marcus Birkenkrahe
+#+subtitle: COR 100/Year 1 - Lyon College - Fall 2024
+* Week 1
+* Week 2
+#+attr_html: :width 400px:
+[[../img/Socrates_Xanthippe.png]]
