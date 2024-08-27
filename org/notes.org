@@ -55,8 +55,9 @@ Plato's Analogy of the Cave
 
 
 
-- *At the end of the term*, you'll have to write a paper of 2-3 pages,
-  casting yourself in the role of young Meno, and reflect on:
+- *At the end of the term*, you'll have to write a paper of about 3 (no
+  less than 2) pages, casting yourself in the role of young Meno, and
+  reflect on:
 
   1) What did you learn through the theme of this course ("Game
      Programming with Python")?
@@ -72,3 +73,6 @@ Plato's Analogy of the Cave
   3. Concrete examples from the course
   4. Well-organized text (headings, body paragraphs)
   5. Well-edited and error-free.
+
+- Here is an [[https://github.com/birkenkrahe/cor/blob/main/org/ai_paper.org][example paper]] written by AI as "Young Meno", who attended
+  my "Game Programming with Python" course (approximately 2 pages)
