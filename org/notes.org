@@ -1,7 +1,34 @@
 #+title: Notes - Game Programming with Python
 #+author: Marcus Birkenkrahe
 #+subtitle: COR 100/Year 1 - Lyon College - Fall 2024
+#+startup: overview hideblocks indent entitiespretty: 
 * Week 1
+#+attr_html: :width 600px: 
+[[../img/poster.png]]
+
+- [X] Syllabus and Socrates
+- [X] Python & Philosophy
+- [ ] Coding & Colaboratory
+- [X] Reading assignment
+
 * Week 2
+* Socrates
 #+attr_html: :width 400px:
 [[../img/Socrates_Xanthippe.png]]
+
+Socrates and Xanthippe
+* Plato's Forms
+#+attr_html: :width 600px:
+[[../img/cave2.jpg]]
+
+#+attr_html: :width 600px:
+[[../img/cave.jpg]]
+
+Plato's Analogy of the Cave
+
+#+begin_notes
+- Could the theory of (perfect) forms be useful somewhere?
+- How does the allegory make you feel?
+- What does the allegory make you think of?
+#+end_notes
+
