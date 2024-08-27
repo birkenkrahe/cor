@@ -32,3 +32,43 @@ Plato's Analogy of the Cave
 - What does the allegory make you think of?
 #+end_notes
 
+* Group exercise
+
+1) Form groups of 5-6 people
+   - One of you is Socrates ("the philosopher").
+   - One of you is Meno ("the curious").
+   - One of you is Anytus ("the man").
+   - One of you is an observer of the conversation.
+   - One of you is a recorder of the conversation.
+
+2) Have a 5 minute "Socratic dialog" on the question "Can machines
+   develop human intelligence?" (I'll time you.)
+
+3) Record your results and report to the class (5 min max per group):
+   every member of the group must give its view of the dialog.
+
+4) The purpose is not to find a good answer to the question (that
+   would be very difficult without additional research) but to test
+   your "Socratic tools" after reading the text.
+
+* Assignment: Self-Examination Essay
+
+
+
+- *At the end of the term*, you'll have to write a paper of 2-3 pages,
+  casting yourself in the role of young Meno, and reflect on:
+
+  1) What did you learn through the theme of this course ("Game
+     Programming with Python")?
+  2) When did you experience 'growing pains' in learning something new?
+  3) How did you know that you learnt anything new?
+  4) What learning will you still have to do about "Game Programming
+     in Python"?
+  5) How would you know that you still have something to learn?
+
+- *Criteria:*
+  1. Depth of self-examination
+  2. Reference to direct evidence from Meno
+  3. Concrete examples from the course
+  4. Well-organized text (headings, body paragraphs)
+  5. Well-edited and error-free.
