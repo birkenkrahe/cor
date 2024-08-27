@@ -33,6 +33,10 @@ Plato's Analogy of the Cave
 #+end_notes
 
 * Group exercise
+#+attr_html: :width 600px:
+[[../img/group.jpg]]
+
+/Image: Rembrandt, Members of the Drapers' Guild, 1662./
 
 1) Form groups of 5-6 people
    - One of you is Socrates ("the philosopher").
@@ -51,9 +55,10 @@ Plato's Analogy of the Cave
    would be very difficult without additional research) but to test
    your "Socratic tools" after reading the text.
 
-* Assignment: Self-Examination Essay
-
-
+* End-of-Term Assignment: Self-Examination Essay
+#+attr_html: :width 300px:
+#+caption: Mark Gertler, Still-Life with Self-Portrait (1918)
+[[../img/Mark-Gertler-Self-Portrait.jpg]]
 
 - *At the end of the term*, you'll have to write a paper of about 3 (no
   less than 2) pages, casting yourself in the role of young Meno, and
@@ -74,5 +79,5 @@ Plato's Analogy of the Cave
   4. Well-organized text (headings, body paragraphs)
   5. Well-edited and error-free.
 
-- Here is an [[https://github.com/birkenkrahe/cor/blob/main/org/ai_paper.org][example paper]] written by AI as "Young Meno", who attended
-  my "Game Programming with Python" course (approximately 2 pages)
+- Here is an [[https://github.com/birkenkrahe/cor/blob/main/pdf/ai_paper.pdf][example paper]] written by AI as "Young Meno", who attended
+  my "Game Programming with Python" course (approximately 3 pages).
