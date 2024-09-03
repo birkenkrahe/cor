@@ -98,25 +98,25 @@ Humanities, Arts, and Science (H.A.T.S.) symposium at Lyon College.
 
 * Course Schedule
 
-| Week | Topic                                               |
-|------+-----------------------------------------------------|
-|    1 | Plato & Programming                                 |
-|    2 | Plato's Meno & Game Programming                     |
-|------+-----------------------------------------------------|
-|    3 | Programming as an Art, IPython, Google Colaboratory |
-|    4 | Manipulating values in Python                       |
-|    5 | Hello world program, input/output, using strings    |
-|    6 | Writing a game program: planning, randomness, while |
-|    7 | Checking conditions, printing results, alterations  |
-|    8 | Dragon realm, flowcharts, functions, Booleans       |
-|    9 | Writing and testing the Dragon Realm program        |
-|   10 | Planning the Hangman game with flowcharts           |
-|   11 | Writing the Hangman code                            |
-|   12 | Extending the Hangman game                          |
-|   13 | Artificial Intelligence: planning Tic-Tac-Toe       |
-|   14 | Writing and testing Tic-Tac-Toe                     |
-|   15 | Preparing the H.A.T.S. presentation                 |
-|   16 | H.A.T.S. presentation                               |
+| Week | Topic                                                     |
+|------+-----------------------------------------------------------|
+|    1 | Plato & Programming                                       |
+|    2 | Plato's Meno & Game Programming                           |
+|------+-----------------------------------------------------------|
+|    3 | Programming as an Art, IPython, Google Colaboratory, IDLE |
+|    4 | Manipulating values in Python                             |
+|    5 | Hello world program, input/output, using strings          |
+|    6 | Writing a game program: planning, randomness, while       |
+|    7 | Checking conditions, printing results, alterations        |
+|    8 | Dragon realm, flowcharts, functions, Booleans             |
+|    9 | Writing and testing the Dragon Realm program              |
+|   10 | Planning the Hangman game with flowcharts                 |
+|   11 | Writing the Hangman code                                  |
+|   12 | Extending the Hangman game                                |
+|   13 | Artificial Intelligence: planning Tic-Tac-Toe             |
+|   14 | Writing and testing Tic-Tac-Toe                           |
+|   15 | Preparing the H.A.T.S. presentation                       |
+|   16 | H.A.T.S. presentation                                     |
 
 See also: [[https://catalog.lyon.edu/202425-academic-calendar][2024-2025 academic calendar]].
 
