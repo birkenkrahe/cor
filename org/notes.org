@@ -2,7 +2,8 @@
 #+author: Marcus Birkenkrahe
 #+subtitle: COR 100/Year 1 - Lyon College - Fall 2024
 #+startup: overview hideblocks indent entitiespretty: 
-* Week 1
+
+* Week 1: And so it begins
 #+attr_html: :width 600px: 
 [[../img/poster.png]]
 
@@ -11,13 +12,12 @@
 - [ ] Coding & Colaboratory
 - [X] Reading assignment
 
-* Week 2
-* Socrates
+* Week 2: In Plato's Cave
 #+attr_html: :width 400px:
 [[../img/Socrates_Xanthippe.png]]
 
 Socrates and Xanthippe
-* Plato's Forms
+** Plato's Forms
 #+attr_html: :width 600px:
 [[../img/cave2.jpg]]
 
@@ -32,7 +32,7 @@ Plato's Analogy of the Cave
 - What does the allegory make you think of?
 #+end_notes
 
-* Group exercise
+** Group exercise
 #+attr_html: :width 600px:
 [[../img/group.jpg]]
 
@@ -55,7 +55,7 @@ Plato's Analogy of the Cave
    would be very difficult without additional research) but to test
    your "Socratic tools" after reading the text.
 
-* End-of-Term Assignment: Self-Examination Essay
+** End-of-Term Assignment: Self-Examination Essay
 #+attr_html: :width 300px:
 #+caption: Mark Gertler, Still-Life with Self-Portrait (1918)
 [[../img/Mark-Gertler-Self-Portrait.jpg]]
@@ -81,3 +81,12 @@ Plato's Analogy of the Cave
 
 - Here is an [[https://github.com/birkenkrahe/cor/blob/main/pdf/ai_paper.pdf][example paper]] written by AI as "Young Meno", who attended
   my "Game Programming with Python" course (approximately 3 pages).
+
+* Week 3: Programming with Python in Colaboratory
+#+attr_html: :width 600px:
+[[../img/colab2.png]]
+
+- [ ] Programming as an art (with or without AI).
+- [ ] Programming with IPython, IDLE, and Google Colaboratory.
+- [ ] Programming with Python: numbers, operations, variables.
+- [ ] Simple programs: "Hello World" and user input/output.
