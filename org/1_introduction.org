@@ -153,6 +153,8 @@ What does this cartoon mean to you?
 
 * Using AI to import and visualize data
 
-- We'll import the =mtcars= data set.
+- We'll import the =mtcars= data set (a CSV file on the Internet).
 
+- We'll print the first few lines of the dataset.
 
+- We'll plot the miles-per-gallon vs. weight data.
