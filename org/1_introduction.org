@@ -1,5 +1,6 @@
 #+title: Game Programming with Python
 #+author: Marcus Birkenkrahe
+#+subtitle: Introduction
 #+startup: overview hideblocks indent entitiespretty:
 #+property: header-args:python :python python3 :session *Python* :results output :exports both :noweb yes :tangle yes:
 * Introduction
@@ -158,3 +159,21 @@ What does this cartoon mean to you?
 - We'll print the first few lines of the dataset.
 
 - We'll plot the miles-per-gallon vs. weight data.
+
+* Programming assignment: Colab notebook without AI
+
+- Create a new notebook
+
+- Create text cells
+
+- Create and run code cells
+
+- Add the =matplotlib= graphics library
+
+- Add the =random= random number library
+
+- Generate a "noise" plot of random numbers
+
+- Customize the plot (title, labels)
+
+- The notebook is automatically saved to GDrive

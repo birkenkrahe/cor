@@ -91,35 +91,52 @@ Plato's Analogy of the Cave
 - [ ] Programming with Python: numbers, operations, variables.
 - [ ] Simple programs: "Hello World" and user input/output.
 
-* Week 4:
+* Week 4: Manipulating values
 
 - [ ] Review Quiz 2
 - [ ] Review Programming assignment 1
 - [ ] Python Basics: Manipulating values
 
-** Quiz 2
+** Review quiz 2
 
-** Programming Assignment 1
+1. IPython
+2. IDLE
+3. Google Colaboratory
+4. Command-line
+5. Python
+6. .ipynb
+7. Compiler
+8. Assembler
+9. GitHub
+10. Debugger
 
-- Loading libraries:
-  #+begin_src python :results none :session *Python* :python python3 :exports both
-    import matplotlib.pyplot as plt
-    import random
-  #+end_src
+** Review programming assignment 1
 
-- Getting random numbers:
-  #+begin_src python :results none :session *Python* :python python3 :exports both
-    random_numbers = [random.random() for _ in range(1000)]
-  #+end_src
+1) Loading libraries:
+   #+begin_src python :results none :session *Python* :python python3 :exports both
+     import matplotlib.pyplot as plt
+     import random
+   #+end_src
 
-- Plotting with =plot= (line plot by default):
-  #+begin_src python :file random.png :results file graphics output :session *Python* :python python3 :exports both
-    plt.plot(random_numbers)
-    plt.savefig("random.png")
-  #+end_src
+2) Getting random numbers:
+   #+begin_src python :results none :session *Python* :python python3 :exports both
+     random_numbers = [random.random() for _ in range(1000)]
+   #+end_src
 
-- To remove the lines use =plt.scatter=:
-  #+begin_src python :file random2.png :results file graphics output :session *Python* :python python3 :exports both
-    plt.scatter(range(len(random_numbers)), random_numbers)
-    plt.savefig("random2.png")
-  #+end_src
+3) Plotting with =plot= (line plot by default):
+   #+begin_src python :file random.png :results file graphics output :session *Python* :python python3 :exports both
+     plt.plot(random_numbers)
+     plt.savefig("random.png")
+   #+end_src
+
+   #+RESULTS:
+   [[file:random.png]]
+
+4) To remove the lines use =plt.scatter=:
+   #+begin_src python :file random2.png :results file graphics output :session *Python* :python python3 :exports both
+     plt.scatter(range(len(random_numbers)), random_numbers)
+     plt.savefig("random2.png")
+   #+end_src
+
+   #+RESULTS:
+   [[file:random2.png]]
