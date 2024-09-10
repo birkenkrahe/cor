@@ -121,7 +121,7 @@ Plato's Analogy of the Cave
 
 2) Getting random numbers:
    #+begin_src python :results none :session *Python* :python python3 :exports both
-     random_numbers = [random.random() for _ in range(1000)]
+     random_numbers = [random.random() for _ in range(100)]
    #+end_src
 
 3) Plotting with =plot= (line plot by default):
@@ -144,8 +144,8 @@ Plato's Analogy of the Cave
 
 ** Programming assignment 2 - Five Easy Pieces
 
-- Basic arithmetic
-- Variable manipulation
-- Working with expressions
-- Error handling
-- Bonus challenge (user input)
+1. Basic arithmetic
+2. Variable manipulation
+3. Working with expressions
+4. Error handling
+5. Bonus challenge (user input)
