@@ -1,4 +1,5 @@
-#+startup: overview hideblocks indent entitiespretty: 
+#+startup: overview hideblocks indent entitiespretty:
+#+options: toc:nil num:nil ^:nil: 
 * Assignment: Manipulating Integer Values
 
 ** Instructions
