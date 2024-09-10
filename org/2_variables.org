@@ -3,6 +3,11 @@
 #+subtitle: Variables
 #+startup: overview hideblocks indent entitiespretty:
 #+property: header-args:python :python python3 :session *Python* :results output :exports both :noweb yes :tangle yes:
+* README
+
+- The original notebook is written [[https://github.com/birkenkrahe/cor/blob/main/org/2_variables.org][in Emacs Org-mode]].
+- An IPython notebook version is [[https://colab.research.google.com/drive/1W9rmvgh5SuE0qzWS7DKyErqS4H9-EM-R?usp=sharing][available on Colab]].
+
 * Manipulating integer values
 
 We'll start by learning how to manipulate numbers ('arithmetic').
@@ -19,10 +24,6 @@ We'll start by learning how to manipulate numbers ('arithmetic').
     2 - 2
   #+end_src
 
-  #+RESULTS:
-  : 4
-  : 0
-
 - [In Colab] Where did the first result go? Answer: you need to use
   =print= for every expression that you want to print out, otherwise
   only the last one evaluated will be shown.
@@ -34,10 +35,6 @@ We'll start by learning how to manipulate numbers ('arithmetic').
     print(1e3 * 1e-3)
     print(1/1)
   #+end_src
-
-  #+RESULTS:
-  : 1.0
-  : 1.0
 
 - The first line above uses scientific notation for large numbers:
   ~1e3~ is ~10 * 10 * 10 = 1000~, and ~1e-3~ is ~1 / (10 * 10 * 10) =
