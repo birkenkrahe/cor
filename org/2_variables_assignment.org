@@ -50,19 +50,11 @@ division by zero errors using error handling.
 
 Tip: the following code block gets the value for x and y from the
 keyboard:
-#+begin_src python :tangle input.py :cmdline < file :results output :session *Python* :python python3 :exports both
+#+begin_example python
   x = input("Enter value for x: ")
   y = input("Enter value for y: ")
   print("You entered:", x, "and", y)
-#+end_src
-
-#+begin_src bash :results output :exports both 
-  echo 3 5 > file
-  cat file
-#+end_src
-
-#+RESULTS:
-: 3 5
+#+end_example
 
 ** Submission
 
