@@ -95,12 +95,12 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 * Making syntax errors
 
 - Entering ~ 5 + ~ generates a ~SyntaxError~ because the ~+~ operator
-  is binary and requires two arguments on either side:
+  is /binary/ and requires two arguments on either side:
   #+begin_src python :python python3 :session *Python* :results output
     5 +
   #+end_src
 
-- Syntax errors result from not observing the rules of the language -
+- /Syntax errors/ result from not observing the rules of the language -
   it's as if Yoda was saying "Home I go". This violates the SPO rule
   of English syntax - Subject + Predicate + Object.
 
@@ -237,21 +237,6 @@ We'll start by learning how to manipulate numbers ('arithmetic').
 
 - Python errors include ~SyntaxError~, ~TypeError~ and ~NameError~.
 
-* Code summary
-* Programming assignment: Colab notebook without AI
 
-- Create a new notebook
 
-- Create text cells
 
-- Create and run code cells
-
-- Add the =matplotlib= graphics library
-
-- Add the =random= random number library
-
-- Generate a "noise" plot of random numbers
-
-- Customize the plot (title, labels)
-
-- The notebook is automatically saved to GDrive
