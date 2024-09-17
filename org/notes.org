@@ -290,8 +290,9 @@ Let's make a histogram in Python!
 
 ** Review programming assignment: Bonus task
 
-The sample solution notebook is available as an Org-mode file on
-GitHub (do you know where to look?)
+The [[https://github.com/birkenkrahe/cor/blob/main/org/assignments/2_manipulating_values.org][sample solution notebook]] is available as an Org-mode file on
+GitHub (do you know where to look?) - originally in Emacs + Org-mode.
+
 
 
 

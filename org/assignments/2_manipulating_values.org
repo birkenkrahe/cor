@@ -114,7 +114,7 @@ print("You entered:", x, "and", y)
 #+end_example
 
 Running the code in Colab:
-#+attr_html: :width 350px:
+#+attr_html: :width 600px:
 [[../../img/input.png]]
 
 ** Submission
