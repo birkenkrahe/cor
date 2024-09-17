@@ -101,10 +101,13 @@ Humanities, Arts, and Science (H.A.T.S.) symposium at Lyon College.
 | Week | Topic                                                     |
 |------+-----------------------------------------------------------|
 |    1 | Plato & Programming                                       |
+|------+-----------------------------------------------------------|
 |    2 | Plato's Meno & Game Programming                           |
 |------+-----------------------------------------------------------|
 |    3 | Programming as an Art, IPython, Google Colaboratory, IDLE |
+|------+-----------------------------------------------------------|
 |    4 | Manipulating values in Python                             |
+|------+-----------------------------------------------------------|
 |    5 | Hello world program, input/output, using strings          |
 |    6 | Writing a game program: planning, randomness, while       |
 |    7 | Checking conditions, printing results, alterations        |

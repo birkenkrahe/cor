@@ -1,7 +1,6 @@
 #+startup: overview hideblocks indent entitiespretty:
 #+options: toc:nil num:nil ^:nil: 
 * Assignment: Manipulating Integer Values
-
 ** Instructions
 
 For each task below, write Python code that solves the problem. You

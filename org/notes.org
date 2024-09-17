@@ -92,6 +92,8 @@ Plato's Analogy of the Cave
 - [ ] Simple programs: "Hello World" and user input/output.
 
 * Week 4: Manipulating values
+#+attr_html: :width 400px:
+[[../img/random3.png]]
 
 - [ ] Review Quiz 2
 - [ ] Review Programming assignment 1
@@ -149,3 +151,149 @@ Plato's Analogy of the Cave
 3. Working with expressions
 4. Error handling
 5. Bonus challenge (user input)
+
+* Week 5: Writing programs - "Touching the void"
+#+attr_html: :width 600px: 
+[[../img/spacewalk.jpeg]]
+
+
+/Image: Space X's Polaris Dawn astronauts on 1st ever private spacewalk./
+
+** Quiz 2 review
+
+Let's make a histogram in Python!
+
+#+begin_src python :file gradesHist.png :results file graphics output :session *Python* :python python3 :exports both
+  import matplotlib.pyplot as plt
+
+  grades = [25.71,37.14,48.57,62.22,68.89,75.56,80.0,80.0,82.86,
+              88.89,88.89,91.11,93.33,93.33,95.56,95.56,97.78,100.0]
+  plt.clf()
+  plt.hist(grades,
+           edgecolor="white")
+  plt.title("Histogram Quiz 2")
+  plt.xlabel("Percentage [%]")
+  plt.ylabel("Number of students")
+  plt.savefig("gradesHist.png")
+#+end_src
+
+#+RESULTS:
+[[file:gradesHist.png]]
+
+
+** Review of last week's topics
+
+1. Expressions
+   #+begin_src python :results output :session *Python* :python python3 :exports both
+     print(2 + 2)
+   #+end_src
+
+2. Statements
+
+   #+begin_src python :results output :session *Python* :python python3 :exports both
+     x = 5
+     print(x)
+   #+end_src
+
+3. Variables
+   #+begin_src python :results output :session *Python* :python python3 :exports both
+     x = 5
+     y = 10
+     print(x+y)
+   #+end_src
+
+   #+RESULTS:
+   : 15
+   
+4. Assignment
+   #+begin_src python :results output :session *Python* :python python3 :exports both
+     greeting = "Hello"
+     print(greeting)
+   #+end_src
+
+   #+RESULTS:
+   : hello
+   
+5. =print= function
+
+   #+begin_src python :results output :session *Python* :python python3 :exports both
+     title = "Professor"
+     print(f"{greeting}, {title}!")
+   #+end_src
+
+   #+RESULTS:
+   : hello, Professor!
+   
+6. SyntaxError
+   #+begin_quote
+   If you violate the language rules, e.g. =5 += (missing RHS value)
+   #+end_quote
+
+7. TypeError
+   #+begin_quote
+   If you mix data types: e.g. =print("Hello," + 2)= (cannot add string to
+   number).
+   #+end_quote
+
+8. NameError
+   #+begin_quote
+   If you use an undefined variable.
+   #+end_quote
+
+9. ValueError
+   #+begin_quote
+   If a function receives the wrong value, e.g. =int("marcus")=
+   #+end_quote
+
+10. Scientific notation
+    #+begin_src python :results output :session *Python* :python python3 :exports both
+      print(1.e9)
+      print(1_000_000_000.0)
+    #+end_src
+
+    #+RESULTS:
+    : 1000000000.0
+    : 1000000000.0
+
+11. Floating-point
+    #+begin_src python :results output :session *Python* :python python3 :exports both
+      foo = 100
+      bar = float(foo)
+      print(f"foo = {foo}, bar = {bar}")
+    #+end_src
+
+    #+RESULTS:
+    : foo = 100, bar = 100.0
+
+12. PEMDAS
+    #+begin_quote
+    Parentheses > Exponentiation > Multiplication/Division > Addition/Subtraction
+    #+end_quote
+
+    #+begin_src python :results output :session *Python* :python python3 :exports both
+      print( 4 + (3 * 4) - 2**(2+2))
+    #+end_src
+
+    #+RESULTS:
+    : 0
+
+13. Neuroplasticity ("brain groove")
+    #+attr_html: :width 500px:
+    [[../img/neuroplasticity.png]]
+
+14. What's the difference between =file.py= and =file.ipynb=?
+    #+begin_quote
+    - =file.py= is a Python script that can be run with =python3= on the
+      command-line.
+    - =file.ipynb= is an IPython notebook that can be run in Colab.
+    #+end_quote
+
+** Review programming assignment: Bonus task
+
+The sample solution notebook is available as an Org-mode file on
+GitHub (do you know where to look?)
+
+
+
+
+    
