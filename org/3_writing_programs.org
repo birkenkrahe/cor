@@ -24,7 +24,7 @@
   long as you like:
   #+begin_src python :python python3 :session *Python* :results output
     print("ijdinfnns d    \n   ***&&^6///34/$$$\n\
-    once upon the time in a galaxy far, far away..."x)
+    once upon the time in a galaxy far, far away...")
   #+end_src
 
   #+RESULTS:
@@ -62,7 +62,14 @@
 * Creating the Hello World program
 
 - It's traditional for programmers to make their first program display
-  `Hello world!` on the screen[fn:2]
+  `Hello world!` on the screen
+
+- This goes back to the first proper programming manual written by
+  Kernighan and Ritchie for the C programming language, and it stuck
+  (this seminal book also has its own [[https://en.wikipedia.org/wiki/The_C_Programming_Language][Wikipedia page]]).
+
+- There's also a free C programming course by Dr. Chuck where he
+  essentially reads the book and runs its code ([[https://youtu.be/j-_s8f5K30I?si=3RvxponyxZwh1Ojv][freeCodeCamp]]).
 
 - Enter the following code in the code block:
   1. `# This program says hello and asks for my name`
