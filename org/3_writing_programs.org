@@ -111,7 +111,7 @@
 
 - [[file:img/hello.bpmn][BPMN Process model]] for the Hello world program (created at [[https://bpmn.io][bpmn.io]]):
   #+attr_html: :width 600px:
-  [[./img/hello.svg]]
+  [[../img/hello.svg]]
 
 * Getting input, printing output
 
