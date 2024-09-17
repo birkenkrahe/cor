@@ -159,6 +159,11 @@ Plato's Analogy of the Cave
 /Image: Space X's Polaris Dawn astronauts on 1st ever private spacewalk./
 
 
+- [ ] Quiz 2 review
+- [ ] Review of last week's topics
+- [ ] Review programming assignment bonus task
+- [ ] Next: writing programs
+
 * Quiz 2 review
 
 Let's make a histogram in Python!
@@ -180,13 +185,15 @@ Let's make a histogram in Python!
 #+RESULTS:
 [[file:gradesHist.png]]
 
-
 * Review of last week's topics
 
 1. Expressions
    #+begin_src python :results output :session *Python* :python python3 :exports both
      print(2 + 2)
    #+end_src
+
+   #+RESULTS:
+   : 4
 
 2. Statements
 
@@ -195,14 +202,20 @@ Let's make a histogram in Python!
      print(x)
    #+end_src
 
+   #+RESULTS:
+   : 5
+
 3. Variables
    #+begin_src python :results output :session *Python* :python python3 :exports both
      x = 5
      y = 10
+     z = x + y
      print(x+y)
+     print(z)
    #+end_src
 
    #+RESULTS:
+   : 15
    : 15
    
 4. Assignment
@@ -212,14 +225,17 @@ Let's make a histogram in Python!
    #+end_src
 
    #+RESULTS:
-   : hello
-   
+   : Hello
+
 5. =print= function
 
    #+begin_src python :results output :session *Python* :python python3 :exports both
      title = "Professor"
      print(f"{greeting}, {title}!")
    #+end_src
+
+   #+RESULTS:
+   : Hello, Professor!
 
 6. SyntaxError
    #+begin_quote
@@ -248,12 +264,19 @@ Let's make a histogram in Python!
       print(1_000_000_000.0)
     #+end_src
 
+    #+RESULTS:
+    : 1000000000.0
+    : 1000000000.0
+
 11. Floating-point
     #+begin_src python :results output :session *Python* :python python3 :exports both
       foo = 100
       bar = float(foo)
       print(f"foo = {foo}, bar = {bar}")
     #+end_src
+
+    #+RESULTS:
+    : foo = 100, bar = 100.0
 
 12. PEMDAS
     #+begin_quote
@@ -263,6 +286,9 @@ Let's make a histogram in Python!
     #+begin_src python :results output :session *Python* :python python3 :exports both
       print( 4 + (3 * 4) - 2**(2+2))
     #+end_src
+
+    #+RESULTS:
+    : 0
 
 13. Neuroplasticity ("brain groove")
     #+attr_html: :width 500px:
@@ -282,7 +308,7 @@ The [[https://github.com/birkenkrahe/cor/blob/main/org/assignments/2_manipulatin
 GitHub (do you know where to look?) - originally in Emacs + Org-mode.
 
 You can also save your notebooks as "gist" on GitHub, as code snippets
-that will open in Colab and can be made private, [[script src="https://gist.github.com/birkenkrahe/a4e31ba928d4d08b06c172f6ce60ad99.js"></script][like this]].
+that will open in Colab and can be made private, [[https://gist.github.com/birkenkrahe/a4e31ba928d4d08b06c172f6ce60ad99.js][like this]].
 
 
 * Next stop: Writing programs - String values, hello world, input/output
