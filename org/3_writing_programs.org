@@ -109,9 +109,9 @@
   a program is, and the more people are working on it, the more
   important it is that you follow these development practices!
 
-- [[file:img/hello.bpmn][BPMN Process model]] for the Hello world program (created at [[https://bpmn.io][bpmn.io]]):
+- BPMN Process model for the Hello world program (created at [[https://bpmn.io][bpmn.io]]):
   #+attr_html: :width 600px:
-  [[../img/hello.svg]]
+  [[../img/helloworld.png]]
 
 * Getting input, printing output
 
