@@ -1,0 +1,233 @@
+#+title: Writing programs
+#+author: Marcus Birkenkrahe
+#+subtitle: COR 100.13 / Year 1 - Game programming with Python
+#+options: toc:nil num:nil ^:nil:
+#+startup: overview hideblocks indent entitiespretty: 
+* Using string values
+
+- In Python, text values are called /strings/. They can be used just
+  like integer or float values, and you can store them in variables.
+
+- Python recognizes text values when they are enclosed in (single or
+  double) quotation marks: `"spam"` is a string, `spam` is a variable.
+
+- Store the string `hello` in the variable `spam`, then `print` it:
+  #+begin_src python :python python3 :session *Python* :results output
+    spam = 'hello'
+    print(spam)
+  #+end_src
+
+  #+RESULTS:
+  : hello
+
+- Strings can have any keyboard character in them and they can be as
+  long as you like:
+  #+begin_src python :python python3 :session *Python* :results output
+    print("ijdinfnns d    \n   ***&&^6///34/$$$\n\
+    once upon the time in a galaxy far, far away..."x)
+  #+end_src
+
+  #+RESULTS:
+  : ijdinfnns d
+  :    ***&&^6///34/$$$
+  : once upon the time in a galaxy far, far away...
+
+- In the last example, Python recognized two special characters: `\n`
+  (new line) and `\` (continue here).
+
+- Strings can be /concatenated/: enter `'Hello' + 'World!'` in the next
+  code block:
+  #+begin_src python :python python3 :session *Python* :results output
+    print('Hello'+'World!')
+  #+end_src
+
+  #+RESULTS:
+  : HelloWorld!
+
+- What's behind this? All values have a /data type/ (integer, float,
+  string, or Boolean), and the `+` operator works differently on them:
+  #+begin_src python :python python3 :session *Python* :results output
+    print(2 + 2) # add two integers
+    print(2. + 2.) # add to floats
+    print('2' + '2') # add two strings
+    print(True + False) # add two Booleans (True is 1 and False is 0)
+  #+end_src
+
+  #+RESULTS:
+  : 4
+  : 4.0
+  : 22
+  : 1
+
+* Creating the Hello World program
+
+- It's traditional for programmers to make their first program display
+  `Hello world!` on the screen[fn:2]
+
+- Enter the following code in the code block:
+  1. `# This program says hello and asks for my name`
+  2. `print('Hello world!')`
+  3. `print('What is your name?')
+  4. `name = input()`
+  5. `print('It is good to meet you, ' + name)
+
+  #+begin_src python :python python3 :session *Python* :results none
+    # This program says hello and asks for my name`
+    print('Hello world!')
+    print('What is your name?')
+    name = input()
+    print('It is good to meet you, ' + name)
+  #+end_src
+
+- Let's analyze the program:
+  1. This is a comment - Python ignores everything after `#`
+  2. Displays a string on the screen - the program title.
+  3. Displays a string on the screen - a question for the user.
+  4. Asks for keyboard input and assigns it to the variable `name`.
+  5. Concatenates the welcome and the value `name` of name & prints
+     them.
+
+- When you write your own programs, it is useful to add this information
+  to the code using comments:
+  #+begin_example python
+    # This program says hello and asks for my name`
+    print('Hello world!')  # Print title
+    print('What is your name?')  # Ask user for input
+    name = input() # assign keyboard input to `name`
+    print('It is good to meet you, ' + name) # print result as concatenation
+  #+end_example
+
+- In practice, you would first write the comments as a form of
+  pseudocode, and/or put them in a process model. The more complicated
+  a program is, and the more people are working on it, the more
+  important it is that you follow these development practices!
+
+- [[file:img/hello.bpmn][BPMN Process model]] for the Hello world program (created at [[https://bpmn.io][bpmn.io]]):
+  #+attr_html: :width 600px:
+  [[./img/hello.svg]]
+
+* Getting input, printing output
+
+- `print()` and `input()` are built-in functions.
+
+- The value between the parentheses of a function is called its
+  /argument/, like for mathematical functions $f(x)$.
+
+- When the function is called, the argument is passed to the function
+  for evaluation.
+
+- Examples:
+  #+begin_src python :python python3 :session *Python* :results output
+    # Print the string argument "hello world"
+    print("hello world")
+
+    # Print the number argument 2
+    print(2)
+
+    # Print the value of the expression 2 + 2
+    print(2+2)
+  #+end_src
+
+  #+RESULTS:
+  : hello world
+  : 2
+  : 4
+
+- You can get short help on any function (or keyword) with the `help`
+  function. In the next code block, pass the name of the `print`
+  function as an argument to the `help` function:
+  #+begin_src python :python python3 :session *Python* :results output
+    help(print)
+  #+end_src
+
+  #+RESULTS:
+  #+begin_example
+  Help on built-in function print in module builtins:
+
+  print(...)
+      print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
+
+      Prints the values to a stream, or to sys.stdout by default.
+      Optional keyword arguments:
+      file:  a file-like object (stream); defaults to the current sys.stdout.
+      sep:   string inserted between values, default a space.
+      end:   string appended after the last value, default a newline.
+      flush: whether to forcibly flush the stream.
+  #+end_example
+
+- Do the same thing for `input`: get `help` using the `help` function
+  #+begin_src python :python python3 :session *Python* :results output
+    help(input)
+  #+end_src
+
+  #+RESULTS:
+  #+begin_example
+  Help on built-in function input in module builtins:
+
+  input(prompt='', /)
+      Read a string from standard input.  The trailing newline is stripped.
+
+      The prompt string, if given, is printed to standard output without a
+      trailing newline before reading input.
+
+      If the user hits EOF (*nix: Ctrl-D, Windows: Ctrl-Z+Return), raise EOFError.
+      On *nix systems, readline is used if available.
+  #+end_example
+
+- Both `help` texts contain a lot of technical information that you
+  may not understand (yet). Especially when you encounter a new
+  function, it's worth going down the rabbit hole of documentation to
+  understand absolutely everything that the `help` can tell you.
+
+- Here is the `input` command from the program again:
+  #+begin_src python :python python3 :tangle input.py :results silent
+    name = input()
+    print('Hello, ' + name)
+  #+end_src
+
+- What happens here? The function `input` is called without an
+  argument. As the `help` explains, it reads "a string from standard
+  input". Standard input (/stdin/) in this case means the keyboard.
+
+- Standard input could also be passed to a Python script: after
+  tangling the single command above as a Python file `input.py`, it
+  can be run on the command line if `input` is a file containing
+  input:
+  #+begin_src bash :results output
+    echo 'Marcus' > inputFile
+    python3 input.py < inputFile
+  #+end_src
+
+  #+RESULTS:
+  : Hello, Marcus
+
+* Forgetting and naming variables
+
+- What happens to the variables when the program is finished?
+
+- It depends:
+  1) If you're working in an interactive notebook like an IPython
+     shell, or in Emacs Org-mode, the variables are alive as long as
+     the notebook session is running.
+  2) If you run a program on the command line like `python3 input.py`
+     above, everything is gone when the program is finished.
+
+- Your variables have to be named by you. There are a few rules and
+  recommendations for that:
+  1) Don't start a name with anything but a (lowercase) letter
+     (underscores are reserved, numbers or operators are not allowed)
+  2) Observe the fact that variable names are case-sensitive: `SPAM`
+     is not the same as `spam`.
+  3) You must not have whitespace (empty characters) within the name.
+  4) Variable names are usual lower case. You can form longer names
+     either by connecting them with underscore `_` or with /camelCase/:
+     for example: `my_number` or `myName`.
+
+* Summary
+
+- All values have a data type (float, integer, string, or Boolean).
+- Strings must be enclosed in single or double quotation marks.
+- Strings can be concatenated with the `+` operator.
+- Functions carry out complicated instructions, they are called with
+  or without arguments, e.g. `print(2)` or `input()`.
+- Functions can be used anywhere a value is used: `name=input()`.
