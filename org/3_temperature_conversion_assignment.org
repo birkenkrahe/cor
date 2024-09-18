@@ -1,0 +1,93 @@
+#+TITLE: Week 5 - Assignment: Temperature Converter
+#+SUBTITLE: COR 100/Year 1 Game Programming in Python 
+#+startup: overview hideblocks indent entitiespretty: 
+This exercise only requires you to know a little about variables,
+expressions, and assignments.
+
+The goal is to write Python code that converts temperatures between
+Celsius and Fahrenheit.
+
+To make it easier for you, I give you the steps, and all you have to
+do is put them into code in Google Colab.
+
+Copy the text into text blocks (use =#= for headlines), and then follow
+up with code blocks for the Python code.
+
+1. *Define* variables
+
+   - Assign initial values to the variables =celsius= and =fahrenheit=.
+     #+begin_src python :results output :session *Python* :python python3 :exports both
+       celsius = 25
+       fahrenheit = 77
+     #+end_src
+
+   - Example: Assign the value =2= to the variable =x=
+     #+begin_src python :results none :session *Python* :python python3 :exports both
+       x = 2
+     #+end_src
+
+2. *Compute* using conversion formulas
+
+   - Use the conversion formulas:
+     1) Celsius to Fahrenheit: F = (C * 9/5) + 32
+     2) Fahrenheit to Celsius: C = (F - 32) * 5/9
+
+   - In the code block, compute the variable =fahrenheit_from_celsius=
+     using the first, and the variable =celsius_from_fahrenheit= using
+     the second formula:
+     #+begin_example
+       fahrenheit_from_celsius = ...  # use formula 1
+       celsius_from_fahrenheit = ...  # use formula 2
+     #+end_example
+
+   - Example: Given =x = 2=, compute =y = 2 * x + 1= in Python:
+     #+begin_src python :results none :session *Python* :python python3 :exports both
+       y = 2 + x + 1
+     #+end_src
+
+3. *Print* the results for the initial values of =celsius= and =fahrenheit=.
+
+   - Use the =print= function with formatting as seen in class. The
+     output for the sample data should look like this:
+     #+begin_example
+     25 C is equal to 77.00 F
+     77 F is equal to 25.00 C
+     #+end_example
+
+   - Print the result first using =print=. For the example:
+     #+begin_src python :results output :session *Python* :python python3 :exports both
+       print("If x =", x, "then y = 2 * x + 1 =", y)     
+     #+end_src
+
+     #+RESULTS:
+     : If x = 2 then y = 2 * x + 1 = 5
+
+   - Tip: You can also print the =y= using formatted =print=
+     #+begin_src python :results output :session *Python* :python python3 :exports both
+       print(f"If x = {x} then y = 2 * x + 1 = {y}");
+     #+end_src
+
+     #+RESULTS:
+     : If x = 2 then y = 2 * x + 1 = 5
+
+4. *Submission*: Put these statements in a Colab notebook and submit the
+   URL to the notebook in Canvas.
+
+   The full example script looks like this:
+   #+begin_src python :tangle convert.py :results output :session *Python* :python python3 :exports both
+     ## convert.py - Celsius-Fahrenheit conversion
+     ## Input: celsius, fahrenheit
+     ## Output: fahrenheit_to_celsius, celsius_to_fahrenheit
+     
+     x = 2  # assign value to variable
+     y = 2 * x + 1 # compute y as a function of x
+     print("If x =", x, "then y = 2 * x + 1 =", y)     
+     print(f"If x = {x} then y = 2 * x + 1 = {y}");
+   #+end_src
+
+   #+RESULTS:
+   : If x = 2 then y = 2 * x + 1 = 5
+   : If x = 2 then y = 2 * x + 1 = 5
+
+5. *Any questions?* Please ask in the public or private Google Chat!
+   We will review this assignment at the next meeting on Tuesday!
