@@ -186,6 +186,9 @@
   function, it's worth going down the rabbit hole of documentation to
   understand absolutely everything that the `help` can tell you.
 
+- Unfortunately, the official Python documentation for input and
+  output at [[https://docs.python.org/3/tutorial/inputoutput.html#][python.org]] is not any clearer.
+
 - Here is the `input` command from the program again:
   #+begin_src python :python python3 :tangle input.py :results silent
     name = input()

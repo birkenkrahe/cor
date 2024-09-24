@@ -312,13 +312,7 @@ that will open in Colab and can be made private, [[https://gist.github.com/birke
 #+attr_html: :width 600px:
 [[../img/gist.png]]
 
-* Next stop: Writing programs - String values, hello world, input/output
-#+attr_html: :width 500px:
-[[../img/the-elephants-large.jpg]]
-
-/Image: Salvador Dali, The Elephants (1948)/
-
-Here's the rub:
+** Participation and assignments
 
 - We will code in Google Colaboratory together
 
@@ -342,3 +336,24 @@ Here's the rub:
 
 
     
+* Week 6: String values, hello world, input/output
+#+attr_html: :width 500px:
+[[../img/the-elephants-large.jpg]]
+
+/Image: Salvador Dali, The Elephants (1948)/
+
+
+- [ ] Review: Temperature Converter ([[https://gist.github.com/birkenkrahe/4aecc772437994328fec72d1b6d1ebcb][GitHub gist]])
+- [ ] Next quiz and assignment introduced via video
+
+Topics:  
+- [ ] String values
+- [ ] Hello world program
+- [ ] Getting input & printing output
+- [ ] Forgetting and naming variables
+
+The gist for this week's lecture is [[https://gist.github.com/birkenkrahe/724c4bb4559672069f738a99cae1cda6][here]] in GitHub.
+
+Next week: Starting the game program!
+
+If we have time, we'll move into Python graphics, too.
