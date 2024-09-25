@@ -2,7 +2,7 @@
 #+author: Marcus Birkenkrahe
 #+subtitle: COR 100.13 / Year 1 - Game programming with Python
 #+options: toc:nil num:nil ^:nil:
-#+startup: overview hideblocks indent entitiespretty: 
+#+startup: overview hideblocks indent entitiespretty:
 * Using string values
 
 - In Python, text values are called /strings/. They can be used just
@@ -78,13 +78,13 @@
   4. `name = input()`
   5. `print('It is good to meet you, ' + name)
 
-  #+begin_src python :python python3 :session *Python* :results none
+  #+begin_example python :python python3 :session *Python* :results none
     # This program says hello and asks for my name`
     print('Hello world!')
     print('What is your name?')
     name = input()
     print('It is good to meet you, ' + name)
-  #+end_src
+  #+end_example
 
 - Let's analyze the program:
   1. This is a comment - Python ignores everything after `#`
@@ -190,10 +190,10 @@
   output at [[https://docs.python.org/3/tutorial/inputoutput.html#][python.org]] is not any clearer.
 
 - Here is the `input` command from the program again:
-  #+begin_src python :python python3 :tangle input.py :results silent
+  #+begin_example python :python python3 :tangle input.py :results silent
     name = input()
     print('Hello, ' + name)
-  #+end_src
+  #+end_example
 
 - What happens here? The function `input` is called without an
   argument. As the `help` explains, it reads "a string from standard
@@ -232,6 +232,56 @@
   4) Variable names are usual lower case. You can form longer names
      either by connecting them with underscore `_` or with /camelCase/:
      for example: `my_number` or `myName`.
+
+* Exercise: Practicing Python Variable Naming Conventions
+
+This exercise is designed to help you practice proper variable naming
+conventions in Python.
+
+*Instructions:*
+1. Identify and correct the invalid variable names in the list below.
+2. For each corrected name, explain why the original name was invalid
+   and how the corrected name follows the rules.
+
+*Invalid Variable Names:*
+#+begin_src python
+  1stNumber = 10
+  My Number = 5
+  sum-total$ = 50
+  _spam_eggs = 12
+  SPAM = "hello"
+#+end_src
+
+*Task:*
+- Correct each of the variable names based on the rules provided.
+
+- Make sure to follow these rules:
+  - Variable names must start with a lowercase letter.
+  - No special characters (like `$` or spaces) are allowed in variable names.
+  - Variable names are case-sensitive.
+  - Use either underscores `_` or camelCase for multi-word variable names.
+
+*Example Answer:*
+#+begin_src python
+  # 1stNumber is invalid because it starts with a number.
+  first_number = 10
+
+  # My Number is invalid because it contains a space.
+  my_number = 5
+
+  # sum-total$ is invalid because it contains a special character ($).
+  sum_total = 50
+
+  # _spam_eggs is technically valid but underscores at the beginning are reserved for special uses. A better name could be:
+  spam_eggs = 12
+
+  # SPAM is valid, but variable names are usually lowercase. A better name could be:
+  spam = "hello"
+#+end_src
+
+Feel free to apply similar corrections and explanations to the rest of
+the variables!
+
 
 * Summary
 
