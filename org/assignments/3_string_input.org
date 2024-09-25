@@ -1,0 +1,55 @@
+#+options: toc:nil num:nil ^:nil: 
+#+startup: overview hideblocks indent entitiespretty: 
+#+title: Assignment: Working with strings in Python
+#+author: Marcus Birkenkrahe
+#+subtitle: COR 100.13/Year One "Game Programming with Python"
+* Week 6 - Assignment: Working with strings in Python
+
+** Instructions:
+1. Open [[https://colab.research.google.com/][Google Colaboratory]].
+2. Switch off AI assistance (`Tools` > `Settings` > `AI Assistant` >
+   `Hide AI assistant`)
+3. Complete the following tasks in the notebook 
+4. After completing the tasks, save the notebook and generate the shareable link.
+5. Submit the shareable URL to Canvas.
+
+** Tasks:
+
+1. *Task 1: Storing and Printing a String*
+   
+   Store the string `"Hello, world!"` in a variable called =greeting= and then print it.
+
+2. *Task 2: Concatenating Strings*
+
+   Concatenate the following two strings and print the result:  
+   - =first_part = "Hello, "=  
+   - =second_part = "Python learners!"=
+
+3. *Task 3: Taking Input from the User*
+
+   Write a small program that:
+   - Asks the user to input their name.
+   - Prints a welcome message like: =Nice to meet you, [Name]!=
+
+4. *Task 4: Printing Special Characters*
+
+   Print the following multi-line string that contains special characters:
+   
+   #+begin_quote
+   Hello, world!
+   Python is awesome.
+   Let's learn together! \n Happy Coding! 
+   #+end_quote
+
+5. *Optional Task: Exploring Python Documentation and Errors*
+
+   Check out the official Python documentation for the =print()= and =input()= functions at [[https://docs.python.org/3/tutorial/inputoutput.html#][docs.python.org]].
+
+   Additionally, find out what an =EOFError= is and how you can generate one in Python. Write a short summary and optionally demonstrate how to trigger the error in a Colab notebook.
+
+---
+
+Once you complete all the tasks, save the notebook, click on the
+"Share" button in the top-right corner of the Google Colaboratory
+interface, and generate a shareable link. Submit this link on Canvas.
+
