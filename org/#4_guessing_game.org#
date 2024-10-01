@@ -213,7 +213,7 @@
 
 - The last example checks a condition after the `if` keyword: this is
   called a /conditional statement/. Seen through process model eyes,
-  this last code chunk looks like this:
+  this last code chunk looks like this (conditional_statement.png):
   #+attr_html: :width 650px:
   [[../img/conditional_statement.svg]]
 
