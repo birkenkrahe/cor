@@ -282,7 +282,6 @@ conventions in Python.
 Feel free to apply similar corrections and explanations to the rest of
 the variables!
 
-
 * Summary
 
 - All values have a data type (float, integer, string, or Boolean).
