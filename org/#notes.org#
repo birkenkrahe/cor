@@ -360,13 +360,13 @@ If we have time, we'll move into Python graphics, too.
 #+Caption: AI podcasters by Grok
 [[../img/podcasters.jpeg]]
 
-- [ ] New! 10-min "Deep Dive" introductory podcast ([[https://chat.google.com/room/AAAA5kYGrM8/6vlfTuECFhQ/6vlfTuECFhQ?cls=10][chat]])
+- [X] New! 10-min "Deep Dive" introductory podcast ([[https://chat.google.com/room/AAAA5kYGrM8/6vlfTuECFhQ/6vlfTuECFhQ?cls=10][chat]])
 
-- [ ] Review assignment: Working with strings in Python
-
-- [ ] Results quiz 5: Nice going!
+- [X] Results quiz 5: Nice going!
   #+attr_html: :width 600px:
   [[../img/quiz5.png]]
+
+- [ ] Review assignment: Working with strings in Python
 
 ** Writing a game
 
