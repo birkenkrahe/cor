@@ -341,14 +341,13 @@ that will open in Colab and can be made private, [[https://gist.github.com/birke
 
 /Image: Salvador Dali, The Elephants (1948)/
 
-
-- [ ] Review: Temperature Converter ([[https://gist.github.com/birkenkrahe/4aecc772437994328fec72d1b6d1ebcb][GitHub gist]])
-- [ ] Next quiz and assignment introduced via video
+- [X] Review: Temperature Converter ([[https://gist.github.com/birkenkrahe/4aecc772437994328fec72d1b6d1ebcb][GitHub gist]])
+- [X] Next quiz and assignment introduced via video
 
 Topics:  
-- [ ] String values
-- [ ] Hello world program
-- [ ] Getting input & printing output
+- [X] String values
+- [X] Hello world program
+- [X] Getting input & printing output
 - [ ] Forgetting and naming variables
 
 The gist for this week's lecture is [[https://gist.github.com/birkenkrahe/724c4bb4559672069f738a99cae1cda6][here]] in GitHub.
@@ -356,3 +355,32 @@ The gist for this week's lecture is [[https://gist.github.com/birkenkrahe/724c4b
 Next week: Starting the game program!
 
 If we have time, we'll move into Python graphics, too.
+
+* Week 7: Writing a game
+#+attr_html: :width 400px:
+#+Caption: AI podcasters by Grok
+
+[[../img/podcasters.jpeg]]
+
+- [ ] New! 10-min "Deep Dive" introductory podcast ([[https://chat.google.com/room/AAAA5kYGrM8/6vlfTuECFhQ/6vlfTuECFhQ?cls=10][chat]])
+
+- [ ] Review assignment: Working with strings in Python
+
+- [ ] Results quiz 5: Nice going!
+  #+attr_html: :width 600px:
+  [[../img/quiz5.png]]
+
+** Writing a game
+
+- Defining the game
+- Planning the game
+- Generating random numbers
+- Repeating code
+- Checking conditions
+- Printing the result
+- Putting it all together
+- Program extensions
+
+Open the Colab notebook and save it to your GDrive:
+[[https://tinyurl.com/guessing-game-ipynb][tinyurl.com/guessing-game-ipynb]]
+
