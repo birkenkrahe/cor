@@ -335,7 +335,6 @@ that will open in Colab and can be made private, [[https://gist.github.com/birke
 
 
 
-    
 * Week 6: String values, hello world, input/output
 #+attr_html: :width 500px:
 [[../img/the-elephants-large.jpg]]

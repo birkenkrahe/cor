@@ -17,7 +17,8 @@
 
 1. *Task 1: Storing and Printing a String*
    
-   Store the string `"Hello, world!"` in a variable called =greeting= and then print it.
+   Store the string `"Hello, world!"` in a variable called =greeting=
+   and then print it.
 
 2. *Task 2: Concatenating Strings*
 
@@ -33,7 +34,8 @@
 
 4. *Task 4: Printing Special Characters*
 
-   Print the following multi-line string that contains special characters:
+   Print the following multi-line string that contains special
+   characters:
    
    #+begin_quote
    Hello, world!
@@ -43,9 +45,12 @@
 
 5. *Optional Task: Exploring Python Documentation and Errors*
 
-   Check out the official Python documentation for the =print()= and =input()= functions at [[https://docs.python.org/3/tutorial/inputoutput.html#][docs.python.org]].
+   Check out the official Python documentation for the =print()= and
+   =input()= functions at [[https://docs.python.org/3/tutorial/inputoutput.html#][docs.python.org]].
 
-   Additionally, find out what an =EOFError= is and how you can generate one in Python. Write a short summary and optionally demonstrate how to trigger the error in a Colab notebook.
+   Additionally, find out what an =EOFError= is and how you can generate
+   one in Python. Write a short summary and optionally demonstrate how
+   to trigger the error in a Colab notebook.
 
 ---
 
