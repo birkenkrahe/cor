@@ -333,7 +333,6 @@ that will open in Colab and can be made private, [[https://gist.github.com/birke
 - You can also participate in the Google chat space 
 
 
-
 * Week 6: String values, hello world, input/output
 #+attr_html: :width 500px:
 [[../img/the-elephants-large.jpg]]
@@ -355,7 +354,7 @@ Next week: Starting the game program!
 
 If we have time, we'll move into Python graphics, too.
 
-* Week 7: Writing a game
+* Week 7: Writing a game: defining & planning
 #+attr_html: :width 400px:
 #+Caption: AI podcasters by Grok
 [[../img/podcasters.jpeg]]
@@ -382,3 +381,16 @@ If we have time, we'll move into Python graphics, too.
 Open the Colab notebook and save it to your GDrive:
 [[https://tinyurl.com/guessing-game-ipynb][tinyurl.com/guessing-game-ipynb]]
 
+* Week 8:
+
+** Learn programming by coding games
+
+via @denicmarko (10/2/24)
+- Blockchain → cryptozombies.​io
+- SQL → mystery.knightlab.​com
+- JavaScript → warriorjs.​com
+- Go → codingame.​com
+- Python → codedex.​io
+- CSS → cssbattle.​dev
+- Java → tynker.​com
+- Git → ohmygit.​org
