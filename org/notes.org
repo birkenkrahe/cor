@@ -369,21 +369,25 @@ If we have time, we'll move into Python graphics, too.
 
 ** Writing a game
 
-- Defining the game
-- Planning the game
-- Generating random numbers
-- Repeating code
-- Checking conditions
-- Printing the result
-- Putting it all together
-- Program extensions
+- [X] Defining the game
+- [X] Planning the game
+- [ ] Generating random numbers
+- [ ] Repeating code
+- [ ] Checking conditions
+- [ ] Printing the result
+- [ ] Putting it all together
+- [ ] Program extensions
 
 Open the Colab notebook and save it to your GDrive:
 [[https://tinyurl.com/guessing-game-ipynb][tinyurl.com/guessing-game-ipynb]]
 
-* Week 8:
+* Week 8: 
+#+attr_html: :width 400px:
+[[../img/assassins_creed_odyssey.png]]
 
-** Learn programming by coding games
+/Image: I'm still playing Assassin's Creed Odyssey (again)/
+
+** Interesting! Learn programming by coding games
 
 via @denicmarko (10/2/24)
 - Blockchain → cryptozombies.​io
