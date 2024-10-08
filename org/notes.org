@@ -382,10 +382,12 @@ Open the Colab notebook and save it to your GDrive:
 [[https://tinyurl.com/guessing-game-ipynb][tinyurl.com/guessing-game-ipynb]]
 
 * Week 8: 
-#+attr_html: :width 400px:
+#+attr_html: :width 600px:
 [[../img/assassins_creed_odyssey.png]]
 
 /Image: I'm still playing Assassin's Creed Odyssey (again)/
+
+*There will be a new quiz and a new programming assignment this week.*
 
 ** Interesting! Learn programming by coding games
 
@@ -398,3 +400,11 @@ via @denicmarko (10/2/24)
 - CSS → cssbattle.​dev
 - Java → tynker.​com
 - Git → ohmygit.​org
+
+** Review: what do you remember from last week?
+
+- We defined and planned a simple text-based game
+- It involved requirements (output)
+- We started writing down the solution code
+- Next, we're going to analyze and understand it
+- Then, we're going to refine the game
