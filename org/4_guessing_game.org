@@ -133,7 +133,7 @@
 - You need randomness in many games - even board games use dice, and
   many game actions, e.g. by NPCs, are randomized.
 
-* Repeating code
+* IN PROGRESS Repeating code
 
 - The next part of the code that may be new to you if you never
   programmed before is the line ~while True:~
@@ -155,7 +155,6 @@
     while i < 3:
         i = i + 1
         print(i)
-
   #+end_src
 
   #+RESULTS:
@@ -171,7 +170,7 @@
   3) The loop is entered a third time: the test `3 < 5` fails - it is
      evaluates to `False`, and the loop commands are not executed.
 
-- As a challenge, change the `while` loop so that it starts at `i = 5`
+- *As a challenge*, change the `while` loop so that it starts at `i = 5`
   and tests if `i > 0`, so that the output is: `4 3 2 1 0`.
   #+begin_src python :python python3 :session *Python* :results output
     i = 5
@@ -201,7 +200,7 @@
         break
     print("Done!")
   #+end_src
- 
+
 - The next one runs until `q` is entered. It prints the message to
   the screen and then halts waiting for input:
   #+begin_src python :python python3 :session *Python* :results output
@@ -244,6 +243,31 @@ This is what happens inside the loop:
 3) If the guess is neither smaller nor greater than the computer's
    number, we must have guessed it: then we print the result and
    `break` out of the loop to finish.
+
+
+- Challenge:
+  1. Define an integer =foo= with a value in [0,100]
+  2. Write a selection statement that tests if =foo= is
+     - smaller than 50 (`num < 50`)
+     - greater than 50 (`num > 50`)
+  3. Print a message based on the range the number falls into that
+     includes the number.
+
+- Solution:
+
+- Modifications:
+  1. How would you test if the number is 50 exactly?
+  2. How would you test if the number is either smaller than 10, or
+     between 10 and 50, or greater than 50?
+  3. How would you test if the number is negative?
+
+- Solution: If the number is 50 exactly.
+
+- Solution: If the number is smaller 10, in the range 10 to 50, or
+  greater than 50.
+
+- Solution: If the number is negative  .
+
 
 * Getting the user's number
 
@@ -371,4 +395,3 @@ This is what happens inside the loop:
   and input (e.g. from the keyboard).
 - `int` and `str` are functions that convert strings and numbers into
   integers and strings, respectively.
-

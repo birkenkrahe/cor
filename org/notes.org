@@ -153,7 +153,7 @@ Plato's Analogy of the Cave
 5. Bonus challenge (user input)
 
 * Week 5: Writing programs - "Touching the void"
-#+attr_html: :width 600px: 
+#+attr_html: :width 600px:
 [[../img/spacewalk.jpeg]]
 
 /Image: Space X's Polaris Dawn astronauts on 1st ever private spacewalk./
@@ -217,7 +217,7 @@ Let's make a histogram in Python!
    #+RESULTS:
    : 15
    : 15
-   
+
 4. Assignment
    #+begin_src python :results output :session *Python* :python python3 :exports both
      greeting = "Hello"
@@ -330,8 +330,7 @@ that will open in Colab and can be made private, [[https://gist.github.com/birke
 
 - You can also send me a Google Chat message
 
-- You can also participate in the Google chat space 
-
+- You can also participate in the Google chat space
 
 * Week 6: String values, hello world, input/output
 #+attr_html: :width 500px:
@@ -342,19 +341,19 @@ that will open in Colab and can be made private, [[https://gist.github.com/birke
 - [X] Review: Temperature Converter ([[https://gist.github.com/birkenkrahe/4aecc772437994328fec72d1b6d1ebcb][GitHub gist]])
 - [X] Next quiz and assignment introduced via video
 
-Topics:  
+Topics:
 - [X] String values
 - [X] Hello world program
 - [X] Getting input & printing output
 - [ ] Forgetting and naming variables
 
-The gist for this week's lecture is [[https://gist.github.com/birkenkrahe/724c4bb4559672069f738a99cae1cda6][here]] in GitHub.
+  The gist for this week's lecture is [[https://gist.github.com/birkenkrahe/724c4bb4559672069f738a99cae1cda6][here]] in GitHub.
 
-Next week: Starting the game program!
+  Next week: Starting the game program!
 
-If we have time, we'll move into Python graphics, too.
+  If we have time, we'll move into Python graphics, too.
 
-* Week 7: Writing a game: defining & planning
+* Week 7: Writing a game: defining & planning [Oct 1]
 #+attr_html: :width 400px:
 #+Caption: AI podcasters by Grok
 [[../img/podcasters.jpeg]]
@@ -381,7 +380,7 @@ If we have time, we'll move into Python graphics, too.
 Open the Colab notebook and save it to your GDrive:
 [[https://tinyurl.com/guessing-game-ipynb][tinyurl.com/guessing-game-ipynb]]
 
-* Week 8: 
+* Week 8: Pseudorandom numbers and repeating loops [Oct 8]
 #+attr_html: :width 600px:
 [[../img/assassins_creed_odyssey.png]]
 
@@ -408,3 +407,107 @@ via @denicmarko (10/2/24)
 - We started writing down the solution code
 - Next, we're going to analyze and understand it
 - Then, we're going to refine the game
+
+* Week 9: Checking conditions and converting data types [Oct 15]
+#+attr_html: :width 400px:
+#+caption: Andrei Rublev, Three angels visiting Abraham/Trinity (1411)
+[[../img/trinity.jpg]]
+
+/Image: see also A Tarkovsky's film "Andrei Rublev" (1966)/
+
+- [ ] Checking conditions with =if=, =elif=, and =else=.
+
+- [ ] Converting data types from character to numeric.
+
+** Review: Pseudorandom numbers and repeating loops
+
+1. How do you generate a random number between 1 and 20 using Python?
+   #+begin_src python :results output :session *Python* :python python3 :exports both
+     import random
+     x = random.randint(1, 20)
+     print(x)
+   #+end_src
+
+   #+RESULTS:
+   : 15
+
+2. How can you print 10 random numbers using a loop?
+   #+begin_src python :results output :session *Python* :python python3 :exports both
+     i = 0
+     while (i<10):
+         print(random.randint(1,20))
+         i=i+1
+   #+end_src
+
+   #+RESULTS:
+   #+begin_example
+   3
+   18
+   6
+   18
+   6
+   16
+   12
+   11
+   20
+   18
+   #+end_example
+
+3. What's the average of these pseudorandom numbers? How would you
+   compute that?
+   #+begin_src python :results output :session *Python* :python python3 :exports both
+     i = 0
+     sum = 0
+     n = 100000
+     while (i<n):
+         x = random.randint(1,n)
+         i=i+1
+         sum=sum+x
+         print(f"Average = {((sum/n)/n)*100:.2f}% (n = {n}).")
+   #+end_src
+
+4. What is the purpose of the `while True:` loop in Python?
+   #+begin_quote
+   The `while True:` loop creates an infinite loop, meaning the loop will
+   continue to run until a `break` condition is encountered or another
+   way of stopping the loop is provided.
+   #+end_quote
+
+5. What does the following code do?
+   #+begin_src python :python python3 :session *Python* :results output
+     i = 5
+     while i > 0:
+         i = i - 1
+         print(i)
+   #+end_src
+
+   #+begin_quote
+   The code starts with `i = 5` and enters a loop. It reduces `i` by 1 in
+   each iteration and prints the value of `i`. The loop continues until
+   `i` is no longer greater than 0, printing 4, 3, 2, 1, and 0 in
+   sequence.
+   #+end_quote
+
+* Week 10: Putting it all together and improving the game [Oct 22]
+
+- Spragin's Lunch today 12-1 pm
+
+** Review
+
+1. How could you stop an infinite loop based on user input in Python?
+   #+begin_quote
+   You can stop an infinite loop based on user input by using the
+   `input()` function within the loop, followed by a condition to check
+   if the input meets a stopping criterion (e.g., the user enters
+   'q'). If the condition is met, the loop breaks.
+   #+end_quote
+
+* Week 11: H.A.T.S. poster & Meno essay [Oct 29]
+
+- Deadline to get a PowerPoint poster printed: Nov 7
+
+* Week 12: Text adventure game [Nov 5]
+* Week 13: Expanding the text adventure game [Nov 12]
+* Week 14: H.A.T.S. preparation [Nov 19]
+
+- H.A.T.S. is on Wednesday, Nov 20, in Derby
