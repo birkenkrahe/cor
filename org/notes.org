@@ -424,33 +424,33 @@ via @denicmarko (10/2/24)
 1. How do you generate a random number between 1 and 20 using Python?
    #+begin_src python :results output :session *Python* :python python3 :exports both
      import random
-     x = random.randint(1, 20)
+     x = random.randint(1, 1000)
      print(x)
    #+end_src
 
    #+RESULTS:
-   : 15
+   : 468
 
 2. How can you print 10 random numbers using a loop?
    #+begin_src python :results output :session *Python* :python python3 :exports both
-     i = 0
-     while (i<10):
+     i = 0 # start state
+     while (i<10): # stop condition
          print(random.randint(1,20))
-         i=i+1
+         i=i+1 # increment
    #+end_src
 
    #+RESULTS:
    #+begin_example
+   9
+   7
+   7
+   14
+   17
+   8
    3
-   18
-   6
-   18
-   6
-   16
-   12
-   11
+   10
+   3
    20
-   18
    #+end_example
 
 3. What's the average of these pseudorandom numbers? How would you
@@ -458,13 +458,27 @@ via @denicmarko (10/2/24)
    #+begin_src python :results output :session *Python* :python python3 :exports both
      i = 0
      sum = 0
-     n = 100000
+     n = 10 # upper bound for the random generator
      while (i<n):
          x = random.randint(1,n)
          i=i+1
          sum=sum+x
          print(f"Average = {((sum/n)/n)*100:.2f}% (n = {n}).")
    #+end_src
+
+   #+RESULTS:
+   #+begin_example
+   Average = 3.00% (n = 10).
+   Average = 10.00% (n = 10).
+   Average = 14.00% (n = 10).
+   Average = 22.00% (n = 10).
+   Average = 32.00% (n = 10).
+   Average = 38.00% (n = 10).
+   Average = 41.00% (n = 10).
+   Average = 43.00% (n = 10).
+   Average = 52.00% (n = 10).
+   Average = 56.00% (n = 10).
+   #+end_example
 
 4. What is the purpose of the `while True:` loop in Python?
    #+begin_quote
@@ -475,11 +489,18 @@ via @denicmarko (10/2/24)
 
 5. What does the following code do?
    #+begin_src python :python python3 :session *Python* :results output
-     i = 5
-     while i > 0:
-         i = i - 1
+     i = 5  # START
+     while i > 0:  # STOP
+         i = i - 1  # INCREMENT/DECREMENT
          print(i)
    #+end_src
+
+   #+RESULTS:
+   : 4
+   : 3
+   : 2
+   : 1
+   : 0
 
    #+begin_quote
    The code starts with `i = 5` and enters a loop. It reduces `i` by 1 in
@@ -511,3 +532,4 @@ via @denicmarko (10/2/24)
 * Week 14: H.A.T.S. preparation [Nov 19]
 
 - H.A.T.S. is on Wednesday, Nov 20, in Derby
+* Deadline for the essay is Dec 3

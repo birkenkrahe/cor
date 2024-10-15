@@ -254,6 +254,18 @@ This is what happens inside the loop:
      includes the number.
 
 - Solution:
+  #+begin_src python :session *Python* :python python3 :results output :exports both :noweb yes 
+    foo = 60
+    if (foo <50):
+        print(str(foo) + " is smaller than 50")
+    elif (foo > 50):
+       print(str(foo) + " is greater than 50")
+
+  #+end_src
+
+  #+RESULTS:
+  : 60 is greater than 50
+  
 
 - Modifications:
   1. How would you test if the number is 50 exactly?
