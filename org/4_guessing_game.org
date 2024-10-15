@@ -268,7 +268,6 @@ This is what happens inside the loop:
 
 - Solution: If the number is negative  .
 
-
 * Getting the user's number
 
 - At the start of the loop, we get the user's guess and store it in
