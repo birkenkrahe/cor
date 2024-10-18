@@ -3,7 +3,7 @@
 #+subtitle: COR 100/Year 1 - Lyon College - Fall 2024
 #+startup: overview hideblocks indent entitiespretty:
 
-* Week 1: And so it begins
+* DONE Week 1: And so it begins
 #+attr_html: :width 600px:
 [[../img/poster.png]]
 
@@ -12,7 +12,7 @@
 - [ ] Coding & Colaboratory
 - [X] Reading assignment
 
-* Week 2: In Plato's Cave
+* DONE Week 2: In Plato's Cave
 #+attr_html: :width 400px:
 [[../img/Socrates_Xanthippe.png]]
 
@@ -82,7 +82,7 @@ Plato's Analogy of the Cave
 - Here is an [[https://github.com/birkenkrahe/cor/blob/main/pdf/ai_paper.pdf][example paper]] written by AI as "Young Meno", who attended
   my "Game Programming with Python" course (approximately 3 pages).
 
-* Week 3: Programming with Python in Colaboratory
+* DONE Week 3: Programming with Python in Colaboratory
 #+attr_html: :width 600px:
 [[../img/colab2.png]]
 
@@ -91,7 +91,7 @@ Plato's Analogy of the Cave
 - [ ] Programming with Python: numbers, operations, variables.
 - [ ] Simple programs: "Hello World" and user input/output.
 
-* Week 4: Manipulating values
+* DONE Week 4: Manipulating values
 #+attr_html: :width 400px:
 [[../img/random3.png]]
 
@@ -152,7 +152,7 @@ Plato's Analogy of the Cave
 4. Error handling
 5. Bonus challenge (user input)
 
-* Week 5: Writing programs - "Touching the void"
+* DONE Week 5: Writing programs - "Touching the void"
 #+attr_html: :width 600px:
 [[../img/spacewalk.jpeg]]
 
@@ -332,7 +332,7 @@ that will open in Colab and can be made private, [[https://gist.github.com/birke
 
 - You can also participate in the Google chat space
 
-* Week 6: String values, hello world, input/output
+* DONE Week 6: String values, hello world, input/output
 #+attr_html: :width 500px:
 [[../img/the-elephants-large.jpg]]
 
@@ -353,7 +353,7 @@ Topics:
 
   If we have time, we'll move into Python graphics, too.
 
-* Week 7: Writing a game: defining & planning [Oct 1]
+* DONE Week 7: Writing a game: defining & planning [Oct 1]
 #+attr_html: :width 400px:
 #+Caption: AI podcasters by Grok
 [[../img/podcasters.jpeg]]
@@ -380,7 +380,7 @@ Topics:
 Open the Colab notebook and save it to your GDrive:
 [[https://tinyurl.com/guessing-game-ipynb][tinyurl.com/guessing-game-ipynb]]
 
-* Week 8: Pseudorandom numbers and repeating loops [Oct 8]
+* DONE Week 8: Pseudorandom numbers and repeating loops [Oct 8]
 #+attr_html: :width 600px:
 [[../img/assassins_creed_odyssey.png]]
 
@@ -408,16 +408,16 @@ via @denicmarko (10/2/24)
 - Next, we're going to analyze and understand it
 - Then, we're going to refine the game
 
-* Week 9: Checking conditions and converting data types [Oct 15]
+* DONE Week 9: Checking conditions and converting data types [Oct 15]
 #+attr_html: :width 400px:
 #+caption: Andrei Rublev, Three angels visiting Abraham/Trinity (1411)
 [[../img/trinity.jpg]]
 
 /Image: see also A Tarkovsky's film "Andrei Rublev" (1966)/
 
-- [ ] Checking conditions with =if=, =elif=, and =else=.
+- [X] Checking conditions with =if=, =elif=, and =else=.
 
-- [ ] Converting data types from character to numeric.
+- [X] Converting data types from character to numeric.
 
 ** Review: Pseudorandom numbers and repeating loops
 
