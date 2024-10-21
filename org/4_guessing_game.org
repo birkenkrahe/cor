@@ -133,7 +133,7 @@
 - You need randomness in many games - even board games use dice, and
   many game actions, e.g. by NPCs, are randomized.
 
-* IN PROGRESS Repeating code
+* Repeating code
 
 - The next part of the code that may be new to you if you never
   programmed before is the line ~while True:~
