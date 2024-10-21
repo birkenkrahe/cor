@@ -511,7 +511,7 @@ via @denicmarko (10/2/24)
 
 * Week 10: Putting it all together and improving the game [Oct 22]
 
-- Spragin's Lunch today 12-1 pm
+- *Remember: Spragin's Lunch in Spragin's house today 12-1 pm*
 
 ** Review
 
@@ -522,6 +522,91 @@ via @denicmarko (10/2/24)
    if the input meets a stopping criterion (e.g., the user enters
    'q'). If the condition is met, the loop breaks.
    #+end_quote
+
+   
+
+#+begin_src python :session *Python* :results output
+  while True:
+      print("Infinite loop!")
+      break
+  print("Done!")
+#+end_src
+
+#+RESULTS:
+: Infinite loop!
+: Done!
+
+*** Question 2
+Modify the following code to create a countdown from 5 to 0 using a
+`while` loop.
+
+#+begin_src python :session *Python* :results output
+  i = 5
+  while i > 0:
+      i = i - 1
+      print(i)
+#+end_src
+
+#+RESULTS:
+: 4
+: 3
+: 2
+: 1
+: 0
+
+*Answer:*
+
+#+begin_src python :session *Python* :results output
+  i = 5
+  while i >= 0:
+      print(i)
+      i = i - 1
+#+end_src
+
+*** Question 3
+In the following code, what happens if the input is `'q'`?
+
+#+begin_src python :session *Python* :results output
+  while True:
+      print("Infinite loop...until you type q")
+      if input() == 'q': break
+      print("Done!")
+#+end_src
+
+#+begin_quote
+If the input is `'q'`, the loop will break, stopping further
+execution. If any other input is provided, it will print `"Done!"` and
+then prompt for input again.
+#+end_quote
+
+*** Question 4
+Write a Python program that checks if a number is smaller than 50,
+greater than 50, or exactly 50, and prints an appropriate message.
+
+#+begin_src python :session *Python* :results output
+  foo = 50
+  if foo < 50:
+      print(f"{foo} is smaller than 50")
+  elif foo > 50:
+      print(f"{foo} is greater than 50")
+  else:
+      print(f"{foo} is exactly 50")
+#+end_src
+
+*** Question 5
+How would you test if a number is either smaller than 10, between 10
+and 50, or greater than 50? Provide the solution.
+
+#+begin_src python :session *Python* :results output
+  foo = 30
+  if foo < 10:
+      print(f"{foo} is smaller than 10")
+  elif 10 <= foo <= 50:
+      print(f"{foo} is between 10 and 50")
+  else:
+      print(f"{foo} is greater than 50")
+#+end_src
+
 
 * Week 11: H.A.T.S. poster & Meno essay [Oct 29]
 
