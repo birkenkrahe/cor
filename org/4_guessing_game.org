@@ -254,18 +254,18 @@ This is what happens inside the loop:
      includes the number.
 
 - Solution:
-  #+begin_src python :session *Python* :python python3 :results output :exports both :noweb yes 
+  #+begin_src python :session *Python* :python python3 :results output :exports both :noweb yes
     foo = 60
     if (foo <50):
         print(str(foo) + " is smaller than 50")
     elif (foo > 50):
-       print(str(foo) + " is greater than 50")
+        print(str(foo) + " is greater than 50")
 
   #+end_src
 
   #+RESULTS:
   : 60 is greater than 50
-  
+
 
 - Modifications:
   1. How would you test if the number is 50 exactly?
@@ -357,12 +357,14 @@ This is what happens inside the loop:
 
 * Putting it all together
 
-- In the next code block, let's assemble the whole program and run it:
+- In the next code block, let's assemble the whole program, add a
+  condition at the end of the loop to offer quitting with 'q', and
+  print the winning number of attempts using the =str= cast function:
   #+begin_src python :python python3 :session *Python* :results output
     import random  # import random module
     num = random.randint(1,20) # pick random number in (1,20) - computer's number
     attempt = 0 # initialize number of attempts
-    print('Enter number between 1 and 20:') # ask for user guess
+    print("Guess my number! Enter a number between 1 and 20!")
     while True:  # start the infinite loop
         guess = int(input('Take a guess: ')) # Prompt user input & store in guess
         attempt = attempt + 1 # increase number of attempts
@@ -371,9 +373,36 @@ This is what happens inside the loop:
         else:
             print("Attempts: " + str(attempt))
             break
+        if input("Enter 'q' to quit (or RET to continue: ")=='q': break
   #+end_src
 
-- You find yet another solution in the textbook on page 22.
+- You find yet another solution [[https://inventwithpython.com/invent4thed/chapter3.html][in Sweigart's book]] (chapter 3):
+  #+begin_src python :results output :session *Python* :python python3 :exports both
+    # This is a Guess the Number game.
+    import random
+    guessesTaken = 0
+    print('Hello! What is your name?')
+    myName = input()
+    number = random.randint(1, 20)
+    print('Well, ' + myName + ', I am thinking of a number between 1 and 20.')
+    for guessesTaken in range(6):
+        print('Take a guess.') # Four spaces in front of "print"
+        guess = input()
+        guess = int(guess)
+        if guess < number:
+            print('Your guess is too low.') # Eight spaces in front of "print"
+        if guess > number:
+            print('Your guess is too high.')
+        if guess == number:
+           break
+    if guess == number:
+        guessesTaken = str(guessesTaken + 1)
+        print('Good job, ' + myName + '! You guessed my number in ' +
+              guessesTaken + ' guesses!')
+    if guess != number:
+        number = str(number)
+        print('Nope. The number I was thinking of was ' + number + '.')
+  #+end_src
 
 * Program extensions and lessons learnt
 
