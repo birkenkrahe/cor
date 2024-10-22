@@ -514,7 +514,15 @@ via @denicmarko (10/2/24)
 
 /Image: Vincent van Gogh, The Potato Eaters, 1885/
 
-- *Remember: Spragin's Lunch in Spragin's house today 12-1 pm*
+- [ ] Remember: *Spragin's Lunch in Spragin's house today 12-1 pm*
+
+- [ ] Remember: *Service Day tomorrow - sign up for a project!*
+
+- [ ] Finishing today: "Guessing a number" game
+
+- [ ] Next up: *Text adventure game in Python*
+
+- [ ] Also: *H.A.T.S. poster & symposium (participation grade)*
 
 * Review of last week
 
@@ -555,16 +563,21 @@ You can code along if you like.
      else: print("You're going nowhere")
    #+end_src
 
+
 * Week 11: H.A.T.S. poster & Meno essay [Oct 29]
 
 - Deadline to get a PowerPoint poster printed: Nov 7
 
+
 * Week 12: Text adventure game [Nov 5]
 
+
 * Week 13: Expanding the text adventure game [Nov 12]
+
 
 * Week 14: H.A.T.S. preparation [Nov 19]
 
 - H.A.T.S. is on Wednesday, Nov 20, in Derby
+
 
 * Deadline for the essay is Dec 3
