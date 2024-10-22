@@ -514,15 +514,16 @@ via @denicmarko (10/2/24)
 
 /Image: Vincent van Gogh, The Potato Eaters, 1885/
 
-- [ ] Remember: *Spragin's Lunch in Spragin's house today 12-1 pm*
+- [X] Remember: *Spragin's Lunch in Spragin's house today 12-1 pm*
 
-- [ ] Remember: *Service Day tomorrow - sign up for a project!*
+- [X] Remember: *Service Day tomorrow - sign up for a project!*
 
 - [ ] Finishing today: "Guessing a number" game
 
 - [ ] Next up: *Text adventure game in Python*
 
 - [ ] Also: *H.A.T.S. poster & symposium (participation grade)*
+
 
 * Review of last week
 
