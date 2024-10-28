@@ -508,7 +508,7 @@ via @denicmarko (10/2/24)
    sequence.
    #+end_quote
 
-* Week 10: Putting it all together and improving the game [Oct 22]
+* DONE Week 10: H.A.T.S. poster [Oct 22]
 #+attr_html: :width 600px:
 [[../img/van_gogh_potato_eaters_1885.jpg]]
 
@@ -522,8 +522,23 @@ via @denicmarko (10/2/24)
 
 - [ ] Next up: *Text adventure game in Python*
 
-- [ ] Also: *H.A.T.S. poster & symposium (participation grade)*
+- [X] Also: *H.A.T.S. poster & symposium (participation grade)*
 
+- [X] Deadline to get a PowerPoint poster printed: Nov 7
+
+
+* Week 11: H.A.T.S. poster update & Text adventure I [Oct 29]
+#+attr_html: :width 400px: 
+[[../img/HATS_2023_POSTER_FINAL.png]]
+
+- [ ] Update from each group!
+
+  | IDEAS   | DESIGN       | BACKGROUND | ACTIVITIES    | CONCLUSIONS | EVIDENCE |
+  |---------+--------------+------------+---------------+-------------+----------|
+  | Chris   | Deuce (Earl) | Eric       | Yovani        | Aidan       | Mark     |
+  | Brandon | Tiago        | Surya      | Kadyn         | Suyog       | Jerome   |
+  | Nikolas | Kritika      | Shova      | Lane (Justin) | Rupesh      | Kapil    |
+  |         |              | Kripa      |               |             |          |
 
 * Review of last week
 
@@ -564,13 +579,9 @@ You can code along if you like.
      else: print("You're going nowhere")
    #+end_src
 
+* Text adventure 
 
-* Week 11: H.A.T.S. poster & Meno essay [Oct 29]
-
-- Deadline to get a PowerPoint poster printed: Nov 7
-
-
-* Week 12: Text adventure game [Nov 5]
+* Week 12: Text adventure game II & Meno essay [Nov 5]
 
 
 * Week 13: Expanding the text adventure game [Nov 12]
