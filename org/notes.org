@@ -581,6 +581,9 @@ You can code along if you like.
 
 * Text adventure 
 
+Open the Google Colab notebook and code along with me:
+[[https://tinyurl.com/text-adventure-1][tinyurl.com/text-adventure-1]]
+
 * Week 12: Text adventure game II & Meno essay [Nov 5]
 
 
