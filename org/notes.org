@@ -528,10 +528,10 @@ via @denicmarko (10/2/24)
 
 
 * Week 11: H.A.T.S. poster update & Text adventure I [Oct 29]
-#+attr_html: :width 400px: 
+#+attr_html: :width 800px: 
 [[../img/HATS_2023_POSTER_FINAL.png]]
 
-- [ ] Update from each group!
+- [X] Update from each group!
 
   | IDEAS   | DESIGN       | BACKGROUND | ACTIVITIES    | CONCLUSIONS | EVIDENCE |
   |---------+--------------+------------+---------------+-------------+----------|
@@ -585,14 +585,10 @@ Open the Google Colab notebook and code along with me:
 [[https://tinyurl.com/text-adventure-1][tinyurl.com/text-adventure-1]]
 
 * Week 12: Text adventure game II & Meno essay [Nov 5]
-
-
 * Week 13: Expanding the text adventure game [Nov 12]
-
 
 * Week 14: H.A.T.S. preparation [Nov 19]
 
 - H.A.T.S. is on Wednesday, Nov 20, in Derby
-
 
 * Deadline for the essay is Dec 3
