@@ -540,7 +540,7 @@ via @denicmarko (10/2/24)
   | Nikolas | Kritika      | Shova      | Lane (Justin) | Rupesh      | Kapil    |
   |         |              | Kripa      |               |             |          |
 
-* Review of last week
+** WAITING Review of last week of "writing a guessing game"
 
 You can code along if you like.
 
@@ -579,16 +579,20 @@ You can code along if you like.
      else: print("You're going nowhere")
    #+end_src
 
-* Text adventure 
+** WAITING Text adventure 
 
 Open the Google Colab notebook and code along with me:
 [[https://tinyurl.com/text-adventure-1][tinyurl.com/text-adventure-1]]
 
-* Week 12: Text adventure game II & Meno essay [Nov 5]
-* Week 13: Expanding the text adventure game [Nov 12]
 
-* Week 14: H.A.T.S. preparation [Nov 19]
+* Week 12: +Text adventure game II+ Work in Groups & Meno essay [Nov 5]
+
+* Week 13: +Expanding the text adventure game+ Working on the Tri-fold [Nov 12]
+
+
+* Week 14: H.A.T.S. preparation: Presentation/Schedule [Nov 19]
 
 - H.A.T.S. is on Wednesday, Nov 20, in Derby
+
 
 * Deadline for the essay is Dec 3
