@@ -526,8 +526,7 @@ via @denicmarko (10/2/24)
 
 - [X] Deadline to get a PowerPoint poster printed: Nov 7
 
-
-* Week 11: H.A.T.S. poster update & Text adventure I [Oct 29]
+* DONE Week 11: H.A.T.S. poster update & Text adventure I [Oct 29]
 #+attr_html: :width 800px: 
 [[../img/HATS_2023_POSTER_FINAL.png]]
 
@@ -584,8 +583,15 @@ You can code along if you like.
 Open the Google Colab notebook and code along with me:
 [[https://tinyurl.com/text-adventure-1][tinyurl.com/text-adventure-1]]
 
+* DONE Week 12: +Text adventure game II+ Work in Groups & Meno essay [Nov 5]
 
-* Week 12: +Text adventure game II+ Work in Groups & Meno essay [Nov 5]
+* Meno/Plato essay
+
+[[https://docs.google.com/document/d/1GlmUL5Pmzs6HPAj_ZaMsk0Md3JET-dE_/edit?usp=sharing&ouid=102963037093118135110&rtpof=true&sd=true][Here are the instructions for the Plato/Meno essay]] that I explained
+to you in class today here in GDrive. The deadline for this is
+December 3. If you turn in the essay late, you get 50% of the points
+only.  As promised, I will upload my answer to the essay challenge -
+some time over the next couple of weeks.
 
 * Week 13: +Expanding the text adventure game+ Working on the Tri-fold [Nov 12]
 
