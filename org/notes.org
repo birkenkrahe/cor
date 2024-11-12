@@ -594,13 +594,31 @@ December 3. If you turn in the essay late, you get 50% of the points
 only.  As promised, I will upload my answer to the essay challenge -
 some time over the next couple of weeks.
 
-
 * Week 13: +Expanding the text adventure game+ Working on the Tri-fold [Nov 12]
 
+- Scheduling: Show up at the Tri-fold during this time interval (stay
+  as long as you like)
+  #+attr_html: :width 600px:
+  [[../img/schedule.jpg]]
+
+  The tri-fold at 11:30 on Tuesday, Nov 12:
+  #+attr_html: :width 400px:
+  [[../img/trifold.jpg]]
 
 * Week 14: H.A.T.S. preparation: Presentation/Schedule [Nov 19]
 
 - H.A.T.S. is on Wednesday, Nov 20, in Derby
 
+- Today we're preparing the presentation & communication of the Tri-fold
+
+- Criteria (besides the quality of the poster - design/errors/message)
+
+  1) Visual design of the poster (engaging)
+
+  2) Diligence of the poster (no errors, typos, graphical issues)
+
+  3) Interest and enthusiasm during presentation at HATS
+
+  4) Effective communication of the message (on the poster)
 
 * Deadline for the essay is Dec 3
