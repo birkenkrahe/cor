@@ -585,6 +585,7 @@ Open the Google Colab notebook and code along with me:
 
 * DONE Week 12: +Text adventure game II+ Work in Groups & Meno essay [Nov 5]
 
+
 * Meno/Plato essay
 
 [[https://docs.google.com/document/d/1GlmUL5Pmzs6HPAj_ZaMsk0Md3JET-dE_/edit?usp=sharing&ouid=102963037093118135110&rtpof=true&sd=true][Here are the instructions for the Plato/Meno essay]] that I explained
@@ -592,6 +593,7 @@ to you in class today here in GDrive. The deadline for this is
 December 3. If you turn in the essay late, you get 50% of the points
 only.  As promised, I will upload my answer to the essay challenge -
 some time over the next couple of weeks.
+
 
 * Week 13: +Expanding the text adventure game+ Working on the Tri-fold [Nov 12]
 
