@@ -606,6 +606,8 @@ some time over the next couple of weeks.
 
 * Week 14: H.A.T.S. preparation: Presentation/Schedule [Nov 19]
 
+** HATS Preparation
+
 - H.A.T.S. is on Wednesday, Nov 20, in Derby
 
 - Today we're preparing the presentation & communication of the Tri-fold
@@ -619,5 +621,17 @@ some time over the next couple of weeks.
   3) Interest and enthusiasm during presentation at HATS
 
   4) Effective communication of the message (on the poster)
+
+** *HATS SCHEDULE - WEDNESDAY 20 NOVEMBER 2024 - DERBY SCIENCE CENTER*
+#+options: toc:nil num:nil ^:nil: author:nil title:nil
+| TIME           | NAME    | NAME   | NAME   | NAME    |
+|----------------+---------+--------+--------+---------|
+| 5:00 - 5:20 pm | KADYN   | KRIPA  | NIK    | BRANDON |
+| 5:20 - 5:40 pm | MARK    | LANE   | YOVANI |         |
+| 5:40 - 6:00 pm | DEUCE   | CHRIS  | ERIC   |         |
+| 6:00 - 6:20 pm | JEROME  | RUPESH | SHOVA  |         |
+| 6:20 - 6:40 pm | TIAGO   | AIDAN  | KAPIL  |         |
+| 6:40 - 7:00 pm | KRITIKA | SURYA  | SUYOG  |         |
+
 
 * Deadline for the essay is Dec 3
